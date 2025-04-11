@@ -1,0 +1,4 @@
+Name         = Quizz
+Version      = 1.5.0
+Essentials   = 21.1
+Credits      = Litsu

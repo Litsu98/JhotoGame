@@ -1,0 +1,40 @@
+﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
+#-------------------------------
+# Ruta 29 (3) - Pueblo Primavera (2)
+3,East,2,2,West,0
+# Ruta 27 (119) - Pueblo Primavera (2)
+119,West,9,2,East,0
+# Ciudad Cerezo (4) - Ruta 29 (3)
+4,East,7,3,West,0
+# Ruta 30 (5) - Ciudad Cerezo (4)
+5,South,0,4,North,48
+# Ruta 31 (6) - Ruta 30 (5)
+6,South,22,5,North,0
+# Ruta 27 (119) - Ruta 30 (5)
+119,North,0,5,South,230
+# Ruta 32 (8) - Ciudad Malva (7)
+8,North,1,7,South,0
+# Pueblo Azalea (10) - Ruta 33 (9)
+10,East,14,9,West,0
+# Ciudad Trigal (12) - Ruta 34 (11)
+12,South,10,11,North,0
+# Ruta 35 (13) - Ruta 36 (14)
+13,North,16,14,South,0
+# Ruta 36 (14) - Ruta 37 (15)
+14,North,11,15,South,0
+# Ciudad Iris (16) - Ruta 37 (15)
+16,South,11,15,North,0
+# Valle Oculto (107) - Ruta 37 (15)
+107,West,28,15,East,0
+# Ruta 38 (17) - Ruta 39 (18)
+17,West,7,18,East,0
+# Ciudad Olivo (19) - Ruta 39 (18)
+19,North,0,18,South,15
+# Ruta 42 (25) - Pueblo Caoba (26)
+25,East,0,26,West,0
+# Ruta 44 (27) - Pueblo Caoba (26)
+27,West,21,26,East,0
+# Ruta 43 (157) - Lago de la Furia (155)
+157,North,0,155,South,19
+# Ruta 45 (29) - Ciudad Endrino (28)
+29,North,0,28,South,0

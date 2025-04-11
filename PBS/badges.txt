@@ -1,0 +1,73 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[MEDALLACEFIRO]
+Name = Zephyr Badge
+Type = FLYING
+LeaderName = Líder Pegaso
+LeaderSprite = BADGE0
+Location = Ciudad Malva
+AcePokemon = PIDGEOTTO
+Order = 0
+#-------------------------------
+[MEDALLLACOLMENA]
+Name = Hive Badge
+Type = BUG
+LeaderName = Líder Antón
+LeaderSprite = BADGE1
+Location = Pueblo Azalea
+AcePokemon = SCYTHER
+Order = 1
+#-------------------------------
+[MEDALLAPLANICIE]
+Name = Medalla Planicie
+Type = NORMAL
+LeaderName = Líder Blanca
+LeaderSprite = BADGE2
+Location = Ciudad Trigal
+AcePokemon = MILTANK
+Order = 2
+#-------------------------------
+[MEDALLANIEBLA]
+Name = Medalla Niebla
+Type = GHOST
+LeaderName = Líder Morti
+LeaderSprite = BADGE3
+Location = Ciudad Iris
+AcePokemon = GENGAR
+Order = 3
+#-------------------------------
+[MEDALLATORMENTA]
+Name = Medalla Tormenta
+Type = FIGHTING
+LeaderName = Líder Anival
+LeaderSprite = BADGE4
+Location = Ciudad Orquídea
+AcePokemon = HERACROSS
+Order = 4
+#-------------------------------
+[MEDALLAMINERAL]
+Name = Medalla Mineral
+Type = STEEL
+LeaderName = Líder Yasmina
+LeaderSprite = BADGE5
+Location = Ciudad Olivo
+AcePokemon = METAGROSS
+Order = 5
+#-------------------------------
+[MEDALLAGLACIAR]
+Name = Medalla Glaciar
+Type = ICE
+LeaderName = Líder Fredo
+LeaderSprite = BADGE6
+Location = Pueblo Caoba
+AcePokemon = MAMOSWINE
+Order = 6
+#-------------------------------
+[MEDALLADRAGON]
+Name = Medalla Dragón
+Type = DRAGON
+LeaderName = Líder Débora
+LeaderSprite = BADGE7
+Location = Ciudad Endrino
+AcePokemon = KINGDRA
+Order = 7

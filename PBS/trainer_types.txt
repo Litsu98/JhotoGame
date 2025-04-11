@@ -1,0 +1,422 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[POKEMONTRAINER_Red]
+Name = Rival
+Gender = Male
+BaseMoney = 60
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = KrisOst.ogg
+#-------------------------------
+[POKEMONTRAINER_Leaf]
+Name = Rival
+Gender = Female
+BaseMoney = 60
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = KrisOst.ogg
+#-------------------------------
+[SILVER1]
+Name = Transeunte
+Gender = Male
+BaseMoney = 100
+BattleBGM = VsSilver.ogg
+VictoryBGM = TrainerVictory.ogg
+#-------------------------------
+[JOVEN]
+Name = Joven
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[CHICA]
+Name = Chica
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[FRIKI]
+Name = Pokemaníaco
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[DONCELLA]
+Name = Doncella
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[BICHERO]
+Name = Caza Bichos
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[SACERDOTISA]
+Name = Sacerdotisa
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[SENORA]
+Name = Señora
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[VIEJALES]
+Name = Anciano
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[PEGASO]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+IntroBGM = GymBattle2.ogg
+VictoryBGM = VictoryLeader.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[CHICA2]
+Name = Chica
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[RANGERM]
+Name = Ranger
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[MOCHILERO]
+Name = Mochilero
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[MOCHILERA]
+Name = Mochilera
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[PESCADOR]
+Name = Pescador
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[CAMPERA]
+Name = Campera
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[CAMPERO]
+Name = Campero
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[CRIADOR]
+Name = Criador
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[NINA]
+Name = Niña
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[NINO]
+Name = Niño
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[LUCHADOR]
+Name = Luchador
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[MONTANERO]
+Name = Montañero
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[ROKETO]
+Name = Recluta Rocket
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = BattleRocket.ogg
+#-------------------------------
+[ROKETA]
+Name = Recluta Rocket
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = BattleRocket.ogg
+#-------------------------------
+[ATENEA]
+Name = Ejecutiva Rocket
+Gender = Female
+BaseMoney = 100
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = BattlEjecutivo.ogg
+#-------------------------------
+[BUGSI]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+IntroBGM = GymBattle2.ogg
+VictoryBGM = VictoryLeader.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[Medium1]
+Name = Medium
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[Medium2]
+Name = Medium
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[Medium3]
+Name = Medium
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[Camper2]
+Name = Campero
+Gender = Male
+BaseMoney = 46
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[GYMVolador]
+Name = Entrenador
+Gender = Male
+BaseMoney = 48
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[Cazabichos2]
+Name = Entrenador
+Gender = Female
+BaseMoney = 48
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[Chica8]
+Name = Entrenadora
+Gender = Female
+BaseMoney = 48
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[LEADER_BLANCA]
+Name = Líder
+Gender = Female
+BaseMoney = 100
+IntroBGM = GymBattle2.ogg
+VictoryBGM = VictoryLeader.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[SILVER2]
+Name = Transeunte
+Gender = Male
+BaseMoney = 100
+BattleBGM = VsSilver.ogg
+VictoryBGM = TrainerVictory.ogg
+#-------------------------------
+[Ornitologo]
+Name = Ornitologo
+Gender = Male
+BaseMoney = 48
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[Ornitologo2]
+Name = Ornitologo
+Gender = Male
+BaseMoney = 48
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[NINAS]
+Name = Niñas
+Gender = Female
+BaseMoney = 48
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[LEADER_MORTI]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+IntroBGM = GymBattle2.ogg
+VictoryBGM = VictoryLeader.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[MARINERO]
+Name = Marinero
+Gender = Male
+BaseMoney = 48
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[LEADER_ANIBAL]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+IntroBGM = GymBattle2.ogg
+VictoryBGM = VictoryLeader.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[PETREL]
+Name = Ejecutivo Rocket
+Gender = male
+BaseMoney = 100
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = BattlEjecutivo.ogg
+#-------------------------------
+[ATLAS]
+Name = Ejecutivo Rocket
+Gender = male
+BaseMoney = 100
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = BattlEjecutivo.ogg
+#-------------------------------
+[LEADER_YASMINA]
+Name = Líder
+Gender = Female
+BaseMoney = 100
+IntroBGM = GymBattle2.ogg
+VictoryBGM = VictoryLeader.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[LUCHADORA]
+Name = Luchadora
+Gender = Female
+BaseMoney = 60
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[LANIEVES]
+Name = Esquiadora
+Gender = Female
+BaseMoney = 48
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[ELNIEVES]
+Name = Esquiador
+Gender = Male
+BaseMoney = 48
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[LEADER_Fredo]
+Name = Líder
+Gender = Male
+BaseMoney = 100
+IntroBGM = GymBattle2.ogg
+VictoryBGM = VictoryLeader.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[ENTRENAGUAY]
+Name = Entrenadora Guay
+Gender = Female
+BaseMoney = 48
+IntroBGM = Chica.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[ENTREGUAY]
+Name = Entrenador Guay
+Gender = Male
+BaseMoney = 48
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[LEADER_Clair]
+Name = Líder
+Gender = Female
+BaseMoney = 100
+IntroBGM = GymBattle2.ogg
+VictoryBGM = VictoryLeader.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------

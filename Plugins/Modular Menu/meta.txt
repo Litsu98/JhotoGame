@@ -1,0 +1,6 @@
+Name         = Modular Menu
+Version      = 1.5
+Essentials   = 21.1
+Website      = https://luka-sj.com/res/modmn
+Conflicts    = DP Pause Menu
+Credits      = Luka S.J., A.I.R

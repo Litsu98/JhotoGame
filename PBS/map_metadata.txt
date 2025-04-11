@@ -1,0 +1,747 @@
+﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
+#-------------------------------
+[002]   # Pueblo Primavera
+Name = Pueblo Primavera
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,26,15
+#-------------------------------
+[003]   # Ruta 29
+Name = Ruta 29
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,24,15
+BattleBack = Field
+#-------------------------------
+[004]   # Ciudad Cerezo
+Name = Ciudad Cerezo
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,21,15
+BattleBack = Field
+#-------------------------------
+[005]   # Ruta 30
+Name = Ruta 30
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,21,12
+BattleBack = Field
+#-------------------------------
+[006]   # Ruta 31
+Name = Ruta 31
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,19,10
+BattleBack = Field
+#-------------------------------
+[007]   # Ciudad Malva
+Name = Ciudad Malva
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,10
+BattleBack = Field
+#-------------------------------
+[008]   # Ruta 32
+Name = Ruta 32
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,12
+BattleBack = Field
+#-------------------------------
+[009]   # Ruta 33
+Name = Ruta 33
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,18
+BattleBack = Field
+#-------------------------------
+[010]   # Pueblo Azalea
+Name = Pueblo Azalea
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,15,18
+BattleBack = field
+#-------------------------------
+[011]   # Ruta 34
+Name = Ruta 34
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,13,15
+BattleBack = field
+#-------------------------------
+[012]   # Ciudad Trigal
+Name = Ciudad Trigal
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,13,13
+BattleBack = city
+#-------------------------------
+[013]   # Ruta 35
+Name = Ruta 35
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,13,11
+BattleBack = Field
+#-------------------------------
+[014]   # Ruta 36
+Name = Ruta 36
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,15,10
+BattleBack = field
+#-------------------------------
+[015]   # Ruta 37
+Name = Ruta 37
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,15,8
+BattleBack = field
+#-------------------------------
+[016]   # Ciudad Iris
+Name = Ciudad Iris
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,15,6
+BattleBack = field
+#-------------------------------
+[017]   # Ruta 38
+Name = Ruta 38
+Outdoor = true
+ShowArea = true
+MapPosition = 0,12,6
+BattleBack = Field
+#-------------------------------
+[018]   # Ruta 39
+Name = Ruta 39
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,8
+BattleBack = field
+#-------------------------------
+[019]   # Ciudad Olivo
+Name = Ciudad Olivo
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,9,10
+#-------------------------------
+[021]   # Interseccion
+Name = Interseccion
+MapPosition = 0,16,6
+#-------------------------------
+[023]   # Raid 15
+Name = Raid 15
+MapPosition = 0,9,8
+#-------------------------------
+[025]   # Ruta 42
+Name = Ruta 42
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,6
+#-------------------------------
+[026]   # Pueblo Caoba
+Name = Pueblo Caoba
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,19,6
+#-------------------------------
+[027]   # Ruta 44
+Name = Ruta 44
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,21,6
+BattleBack = field
+#-------------------------------
+[028]   # Ciudad Endrino
+Name = Ciudad Endrino
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,27,4
+#-------------------------------
+[029]   # Ruta 45
+Name = Ruta 45
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,27,8
+BattleBack = field
+#-------------------------------
+[030]   # Ruta 46
+Name = Ruta 46
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,23,14
+BattleBack = Field
+#-------------------------------
+[031]   # Casa Poke
+Name = torre bellsprout
+MapPosition = 0,21,11
+BattleBack = interior
+#-------------------------------
+[033]   # casas
+Name = torre bellsprout 2
+MapPosition = 0,15,18
+BattleBack = interior
+#-------------------------------
+[034]   # Heladeria
+Name = torre bellsprout 3
+MapPosition = 0,15,18
+BattleBack = interior
+#-------------------------------
+[035]   # Casino
+Name = Casas
+MapPosition = 0,26,15
+#-------------------------------
+[036]   # Centro Comercial
+Name = Laboratorio
+MapPosition = 0,26,15
+#-------------------------------
+[038]   # Centro Poke
+Name = Centro Poke
+MapPosition = 0,13,13
+#-------------------------------
+[039]   # Torre quemada
+Name = Torre Quemada
+ShowArea = true
+MapPosition = 0,15,6
+SnapEdges = true
+BattleBack = quemada
+#-------------------------------
+[040]   # casas2
+Name = casas2
+MapPosition = 0,21,13
+#-------------------------------
+[041]   # Centro Poke
+Name = Centro Poke
+MapPosition = 0,17,13
+#-------------------------------
+[042]   # casas
+Name = casas
+MapPosition = 0,17,10
+#-------------------------------
+[043]   # Escuela
+Name = Escuela
+MapPosition = 0,17,10
+BattleBack = interior
+#-------------------------------
+[044]   # Raid 4
+Name = Raid
+MapPosition = 0,13,18
+BattleBack = forest
+#-------------------------------
+[045]   # Ruinas Alfa
+Name = Ruinas Alfa
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,11
+SnapEdges = true
+BattleBack = Field
+#-------------------------------
+[046]   # entrada pozo
+Name = entrada pozo
+Bicycle = true
+MapPosition = 0,15,18
+#-------------------------------
+[047]   # Ruinas 
+Name = Ruinas Alfa
+MapPosition = 0,16,11
+BattleBack = Templo
+#-------------------------------
+[048]   # Objetos
+Name = Ruinas Alfa
+MapPosition = 0,16,11
+BattleBack = Templo
+#-------------------------------
+[049]   # Pozo Slowpoke
+Name = Ruinas Alfa
+ShowArea = true
+Bicycle = true
+MapPosition = 0,15,18
+BattleBack = cave2
+#-------------------------------
+[050]   # Centro Poke
+Name = Centro Poke
+MapPosition = 0,15,18
+#-------------------------------
+[051]   # Pozo Slowpoke 1
+Name = Ruinas Alfa
+Bicycle = true
+MapPosition = 0,15,18
+BattleBack = Templo
+#-------------------------------
+[052]   # Gym Volador
+Name = Gym Volador
+MapPosition = 0,17,10
+#-------------------------------
+[053]   # Gym Volador
+Name = Gym Volador
+MapPosition = 0,17,10
+BattleBack = Pegaso
+#-------------------------------
+[054]   # Cueva oscura 1
+Name = Cueva oscura 1
+ShowArea = true
+Bicycle = true
+MapPosition = 0,21,9
+DarkMap = true
+BattleBack = cave2
+#-------------------------------
+[055]   # Cueva oscura 2
+Name = Cueva oscura 2
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,23,8
+#-------------------------------
+[056]   # Cueva union
+Name = Cueva union
+ShowArea = true
+Bicycle = true
+MapPosition = 0,17,16
+BattleBack = cave2
+#-------------------------------
+[057]   # Cueva union 2
+Name = Cueva union 2
+Bicycle = true
+MapPosition = 0,17,16
+BattleBack = cave2
+#-------------------------------
+[058]   # Cueva union 3
+Name = Cueva union 3
+Bicycle = true
+MapPosition = 0,17,16
+#-------------------------------
+[059]   # Ruina alfa Principal
+Name = Ruina alfa Principal
+MapPosition = 0,16,11
+#-------------------------------
+[060]   # Ruinas
+Name = Ruinas
+MapPosition = 0,16,11
+BattleBack = templo
+#-------------------------------
+[061]   # casas
+Name = Instituto Arqueologico
+MapPosition = 0,16,11
+#-------------------------------
+[062]   # Pozo Slowpoke 2
+Name = Pozo Slowpoke 2
+Bicycle = true
+MapPosition = 0,15,18
+#-------------------------------
+[063]   # Gym Bicho
+Name = Gym Bicho
+MapPosition = 0,15,18
+BattleBack = Anton
+#-------------------------------
+[064]   # Torre Bellsprout
+Name = Torre Bellsprout
+MapPosition = 0,17,10
+BattleBack = torreb
+#-------------------------------
+[065]   # Torre Bellsprout Piso 1
+Name = Torre Bellsprout Piso 1
+MapPosition = 0,17,10
+BattleBack = torreb
+#-------------------------------
+[066]   # Torre Bellsprout piso 2
+Name = Torre Bellsprout piso 2
+MapPosition = 0,17,10
+BattleBack = torreb
+#-------------------------------
+[067]   # Pokémon Day Care
+Name = Pokémon Day Care
+MapPosition = 0,13,15
+#-------------------------------
+[068]   # Gym Blanca
+Name = Gym Blanca
+MapPosition = 0,13,13
+BattleBack = blanca
+#-------------------------------
+[069]   # Tunel Trigal
+Name = Centro comercial
+MapPosition = 0,13,13
+#-------------------------------
+[070]   # Tineda de Bicis
+Name = Centro comercial - Piso 1
+MapPosition = 0,13,13
+#-------------------------------
+[071]   # Torre Radio
+Name = Ascensor
+MapPosition = 0,13,13
+#-------------------------------
+[072]   # casas
+Name = Centro comercial - Piso 2
+MapPosition = 0,13,13
+#-------------------------------
+[073]   # Centro Poke
+Name = Centro comercial - Piso 3
+MapPosition = 0,13,13
+#-------------------------------
+[074]   # casas
+Name = Tunel trigal
+MapPosition = 0,13,13
+#-------------------------------
+[075]   # Ruta 40
+Name = Tunel trigal
+Weather = HeavyRain,100
+MapPosition = 0,13,13
+BattleBack = Forest
+#-------------------------------
+[076]   # Interseccion
+Name = Torre Radio
+MapPosition = 0,13,13
+#-------------------------------
+[077]   # Torre quemada / 2
+Name = Torre Quemada
+ShowArea = true
+MapPosition = 0,15,6
+SnapEdges = true
+BattleBack = templo
+#-------------------------------
+[078]   # Interseccion
+Name = Casino
+MapPosition = 0,13,13
+#-------------------------------
+[079]   # Floreria
+Name = Floreria
+MapPosition = 0,13,13
+#-------------------------------
+[080]   # Interseccion
+Name = Casas
+MapPosition = 0,13,13
+#-------------------------------
+[081]   # Pueblo Coralindro
+Name = Tienda de Bicis
+MapPosition = 0,13,13
+#-------------------------------
+[082]   # Parque Nacional
+Name = Parque Nacional
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,12,9
+BattleBack = Field
+#-------------------------------
+[083]   # Interseccion
+Name = Interseccion
+MapPosition = 0,23,14
+#-------------------------------
+[084]   # Interseccion
+Name = Interseccion
+MapPosition = 0,18,10
+#-------------------------------
+[085]   # Interseccion
+Name = Interseccion
+MapPosition = 0,16,10
+#-------------------------------
+[086]   # Interseccion
+Name = Interseccion
+MapPosition = 0,17,11
+#-------------------------------
+[087]   # Interseccion
+Name = Interseccion
+MapPosition = 0,16,10
+#-------------------------------
+[088]   # Interseccion
+Name = Interseccion
+MapPosition = 0,13,10
+#-------------------------------
+[089]   # Interseccion2
+Name = Interseccion2
+MapPosition = 0,13,12
+#-------------------------------
+[090]   # Interseccion
+Name = Interseccion
+MapPosition = 0,13,14
+#-------------------------------
+[091]   # Interseccion
+Name = Interseccion
+MapPosition = 0,15,18
+#-------------------------------
+[092]   # Interseccion
+Name = Interseccion
+MapPosition = 0,14,10
+#-------------------------------
+[093]   # Ruta 30
+Name = Ruta 30
+MapPosition = 0,21,12
+#-------------------------------
+[094]   # Raid 1
+Name = Raid 1
+MapPosition = 0,17,12
+BattleBack = forest
+#-------------------------------
+[095]   # Raid 3
+Name = Raid
+MapPosition = 0,12,9
+BattleBack = forest
+#-------------------------------
+[097]   # Centro Poke
+Name = Centro Poke
+MapPosition = 0,17,10
+#-------------------------------
+[098]   # Raid 14
+Name = Raid
+MapPosition = 0,12,6
+BattleBack = forest
+#-------------------------------
+[099]   # casas
+Name = Centro Poke
+MapPosition = 0,15,6
+#-------------------------------
+[100]   # Teatro danza
+Name = Teatro danza
+MapPosition = 0,15,6
+#-------------------------------
+[101]   # Gimnasio de Ciudad Iris
+Name = Gimnasio de Ciudad Iris
+MapPosition = 0,15,6
+DarkMap = true
+BattleBack = morty
+#-------------------------------
+[102]   # CASAS
+Name = CASA1
+MapPosition = 0,15,6
+#-------------------------------
+[103]   # Ruinas Perros
+Name = Ruinas Perros
+MapPosition = 0,15,6
+#-------------------------------
+[104]   # Raid 2
+Name = Raid
+MapPosition = 0,13,15
+BattleBack = forest
+#-------------------------------
+[105]   # Raid 5
+Name = Raid
+MapPosition = 0,13,18
+BattleBack = forest
+#-------------------------------
+[106]   # Bosque Encinar
+Name = Bosque Encinar
+ShowArea = true
+Bicycle = true
+MapPosition = 0,13,18
+SnapEdges = true
+BattleBack = Bosque
+#-------------------------------
+[107]   # Valle Oculto
+Name = Valle Oculto
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,8
+BattleBack = field
+#-------------------------------
+[108]   # Raid6
+Name = Raid
+MapPosition = 0,16,8
+BattleBack = forest
+#-------------------------------
+[109]   # Raid 7
+Name = Raid
+BattleBack = forest
+#-------------------------------
+[110]   # Raid 8
+Name = Raid
+MapPosition = 0,21,12
+BattleBack = forest
+#-------------------------------
+[111]   # Raid 9
+Name = Raid
+MapPosition = 0,17,10
+BattleBack = forest
+#-------------------------------
+[112]   # Raid 10
+Name = Raid
+MapPosition = 0,21,9
+BattleBack = forest
+#-------------------------------
+[113]   # Raid 11
+Name = Raid
+MapPosition = 0,17,16
+BattleBack = forest
+#-------------------------------
+[114]   # Raid 12
+Name = Raid
+MapPosition = 0,15,18
+BattleBack = forest
+#-------------------------------
+[115]   # Granero1
+Name = Granero1
+MapPosition = 0,9,6
+BattleBack = interior
+#-------------------------------
+[116]   # CASA1
+Name = CASA1
+MapPosition = 0,9,6
+#-------------------------------
+[117]   # Paso a Ruinas Alfa
+Name = Paso a Ruinas Alfa
+MapPosition = 0,16,13
+#-------------------------------
+[118]   # Paso a Ruinas Alfa
+Name = Paso a Ruinas Alfa
+MapPosition = 0,16,13
+#-------------------------------
+[119]   # Ruta 27
+Name = Ruta 27
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,29,15
+BattleBack = field
+#-------------------------------
+[120]   # Casas
+Name = Casas
+MapPosition = 0,28,15
+#-------------------------------
+[121]   # Ciudad Orquídea
+Name = Ciudad Orquídea
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,5,13
+#-------------------------------
+[122]   # Ruta 40
+Name = Ruta 40
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = HeavyRain,100
+MapPosition = 0,3,13
+BattleBack = Forest
+#-------------------------------
+[123]   # Raid 16
+Name = Raid 16
+MapPosition = 0,3,13
+#-------------------------------
+[124]   # Villa Aurelis
+Name = Pueblo Coralindro
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,3,11
+#-------------------------------
+[125]   # Ruta 41
+Name = Ruta 41
+Outdoor = true
+ShowArea = true
+Weather = Sandstorm,100
+MapPosition = 0,1,11
+BattleBack = Desierto
+#-------------------------------
+[126]   # Ruta 47
+Name = Ruta 47
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Sun,100
+MapPosition = 0,1,15
+SnapEdges = true
+BattleBack = Volcan
+#-------------------------------
+[127]   # Villa Luminagua
+Name = Villa Luminagua
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,3,16
+SnapEdges = true
+#-------------------------------
+[129]   # Raid 17
+Name = Villa Aurelis
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,1,13
+#-------------------------------
+[132]   # intro2
+Name = intro2
+SnapEdges = true
+#-------------------------------
+[140]   # Gym
+Name = Gym
+BattleBack = anibal
+#-------------------------------
+[151]   # GYM
+Name = GYM
+BattleBack = Yasmina
+#-------------------------------
+[152]   # Monte Mortero P2
+Name = Monte Mortero P2
+DarkMap = true
+BattleBack = cave2
+#-------------------------------
+[153]   # Monte Mortero P1
+Name = Monte Mortero P1
+DarkMap = true
+BattleBack = cave2
+#-------------------------------
+[154]   # Monte Mortero P3
+Name = Monte Mortero P3
+DarkMap = true
+BattleBack = cave2
+#-------------------------------
+[155]   # Lago de la Furia
+Name = Lago de la Furia
+Outdoor = true
+ShowArea = true
+Weather = Rain,100
+BattleBack = field
+#-------------------------------
+[156]   # Monte Mortero P1
+Name = Monte Mortero P1
+DarkMap = true
+BattleBack = cave2
+#-------------------------------
+[157]   # Ruta 43
+Name = Ruta 43
+Outdoor = true
+ShowArea = true
+BattleBack = field
+#-------------------------------
+[160]   # Ruta Helada
+Name = 
+ShowArea = true
+BattleBack = cave_ice
+#-------------------------------
+[161]   # Gimnasio Pokémon
+Name = Gimnasio Pokémon
+BattleBack = Yasmina
+#-------------------------------
+[162]   # Ruta Helada
+ShowArea = true
+BattleBack = cave_ice
+#-------------------------------
+[163]   # Guardia Rocket
+Name = Guardia Rocket
+ShowArea = true
+BattleBack = interior
+#-------------------------------
+[169]   # Gimnasio Pokémon
+Name = Gimnasio Pokémon
+BattleBack = interior

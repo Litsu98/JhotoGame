@@ -1,0 +1,4 @@
+Name         = BW Location Signposts
+Version      = 1.0.0
+Website	     = https://reliccastle.com/resources/755/
+Credits      = Shashu-Greninja,DeepBlue PacificWaves,Shiney570

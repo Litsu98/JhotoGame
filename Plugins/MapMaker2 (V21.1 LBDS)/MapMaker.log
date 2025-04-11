@@ -1,0 +1,13 @@
+===============================================================================
+Thu Apr 10 00:33:30 Hora de verano romance 2025
+-------------------------------------------------------------------------------
+Script 'Scene_Main' line 13: Errno::ENOENT occured.
+
+No such file or directory - Data/Animations.rxdata
+
+Backtrace:
+'Scene_Main' line 13 in `load_data'
+'Scene_Main' line 13 in `main_variable'
+'SDK_Scene_Base' line 39 in `main'
+'Main' line 12
+

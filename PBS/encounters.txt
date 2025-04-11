@@ -1,0 +1,631 @@
+﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
+#-------------------------------
+[002] # Pueblo Primavera
+Water,2
+    60,TENTACOOL,42,45
+    30,MANTYKE,42,45
+    10,REMORAID,42,45
+OldRod
+    100,SHELLDER,5,7
+GoodRod
+    60,BARBOACH,17,18
+    20,KRABBY,15,16
+    20,SHELLDER,16,19
+SuperRod
+    40,CHINCHOU,42,45
+    40,QWILFISH,42,45
+    15,CORSOLA,42,45
+    5,STARYU,42,45
+#-------------------------------
+[003] # Ruta 29
+Land,21
+    10,BIDOOF,3,5
+    10,GROWLITHE,3,5
+    10,HOPPIP,3,5
+    10,LECHONK,3,5
+    10,PIDGEY,3,5
+    10,POOCHYENA,3,5
+    10,RATTATA,3,5
+    10,SCATTERBUG,3,5
+    10,SPEAROW,3,5
+    10,ROOKIDEE,3,5
+#-------------------------------
+[004] # Ciudad Cerezo
+Land,21
+    10,BLIPBUG,3,5
+    10,BUNNELBY,3,5
+    10,ESPURR,3,5
+    10,FLETCHLING,3,5
+    10,PICHU,3,5
+    10,SWABLU,3,5
+    10,TEDDIURSA,3,5
+    10,VENIPEDE,3,5
+    10,ZIGZAGOON,3,5
+Water,2
+    90,CORPHISH,42,45
+    10,MAGIKARP,42,45
+OldRod
+    100,KRABBY,5,7
+#-------------------------------
+[005] # Ruta 30
+Land,21
+    10,CATERPIE,3,5
+    10,GRUBBIN,3,5
+    10,LOTAD,3,5
+    10,MURKROW,3,5
+    10,ODDISH,3,5
+    10,PIDOVE,3,5
+    10,RALTS,3,5
+    10,ZIGZAGOON_1,3,5
+Water,2
+    60,BUIZEL,42,45
+    30,BASCULIN,42,45
+    10,SHELLOS,42,45
+OldRod
+    100,BUIZEL,5,7
+#-------------------------------
+[006] # Ruta 31
+Land,21
+    10,CHARCADET,7,9
+    10,CHEWTLE,7,9
+    10,FOMANTIS,7,9
+    10,MANKEY,7,9
+    10,MUNCHLAX,7,9
+    10,NYMBLE,7,9
+    10,SHINX,7,9
+    10,WURMPLE,7,9
+    
+Water,2
+    60,SURSKIT,42,45
+    40,WISHIWASHI,42,45
+OldRod
+    100,GOLDEEN,7,9
+#-------------------------------
+[007] # Ciudad Malva
+Land,21
+    10,BUDEW,7,9
+    10,ELEKID,7,9
+    10,EXEGGCUTE,7,9
+    10,MAGBY,7,9
+    10,MINCCINO,7,9
+    10,NATU,7,9
+    10,PIKIPEK,7,9
+    10,TAILLOW,7,9
+Water,2
+    100,POLIWAG,42,45
+OldRod
+    100,STARYU,7,9
+#-------------------------------
+[008] # Ruta 32
+Land,21
+    10,CUTIEFLY,11,13
+    10,DUCKLETT,11,13
+    10,FARFETCHD_1,11,13
+    10,HAPPINY,11,13
+    10,HELIOPTILE,11,13
+    10,KARRABLAST,11,13
+    10,MAREEP,11,13
+    10,NOIBAT,11,13
+    10,SENTRET,11,13
+Water,2
+    60,GOLDEEN,42,45
+    40,POLIWAG,42,45
+OldRod
+    100,STARYU,11,13
+#-------------------------------
+[009] # Ruta 33
+Land,21
+    20,RHYHORN,19,22
+    10,DARUMAKA,19,22
+    10,DUNSPARCE,19,22
+    10,FURFROU,19,22
+    10,GOOMY,19,22
+    10,GRIMER,19,22
+    10,GRIMER_1,19,22
+    10,GROWLITHE_1,19,22
+    10,SPINARAK,11,13
+#-------------------------------
+[010] # Pueblo Azalea
+Land,21
+    10,DODUO,20,23
+    10,DRIFLOON,20,23
+    10,GLAMEOW,20,23
+    10,KOMALA,20,23
+    10,LICKITUNG,20,23
+    10,RUFFLET,20,23
+    10,PANSEAR,20,23
+    10,TOGEPI,20,23
+#-------------------------------
+[011] # Ruta 34
+Land,21
+    10,BLITZLE,28,30
+    10,ELGYEM,28,30
+    10,FLAMIGO,28,30
+    10,FLOETTE,28,30
+    10,MORPEKO,28,30
+    10,MUDSDALE,30,30
+    10,NIDORANfE,28,30
+    10,NIDORANmA,28,30
+Water,2
+    60,CLAUNCHER,42,45
+    40,SEEL,42,45
+    40,WAILMER,42,45
+OldRod
+    100,SHELLDER,28,30
+#-------------------------------
+[012] # Ciudad Trigal
+Land,21
+    10,BRONZOR,29,31
+    10,CRABRAWLER,29,31
+    10,CROAGUNK,29,31
+    10,CUFANT,29,31
+    10,JANGMOO,29,31
+    10,PERSIAN_1,29,31
+    10,SANDSLASH,29,31
+#-------------------------------
+[013] # Ruta 35
+Land,21
+    10,AIPOM,33,35
+    10,AUDINO,33,35
+    10,DREEPY,33,35
+    10,HYPNO,33,35
+    10,FALINKS,33,35
+    10,GLIGAR,33,35
+    10,GOLETT,33,35
+    10,LILLIPUP,33,35
+Water,2
+    100,ARAQUANID,42,45
+OldRod
+    100,BASCULIN,33,35
+#-------------------------------
+[014] # Ruta 36
+Land,21
+    10,BINACLE,33,35
+    10,COTTONEE,33,35
+    10,DEERLING,33,35
+    10,FERROSEED,33,35
+    10,DACHSBUN,33,35
+    10,GLIMMET,33,35
+    10,INKAY,33,35
+    10,MAGNETON,33,35
+#-------------------------------
+[015] # Ruta 37
+Land,21
+    10,ABSOL,37,39
+    10,STEENEE,37,39
+    10,CHATOT,37,39
+    10,MABOSSTIFF,37,39
+    10,MILCERY,37,39
+    10,PETILIL,37,39
+    10,NUZLEAF,37,39
+#-------------------------------
+[016] # Ciudad Iris
+Water,2
+    50,ARROKUDA,42,45
+    50,BRUXISH,42,45
+OldRod
+    80,MAGIKARP,31,33
+    20,FEEBAS,31,33
+#-------------------------------
+[017] # Ruta 38
+Land,21
+    10,BRAMBLIN,37,39
+    10,CARNIVINE,37,39
+    10,CHINGLING,37,39
+    10,DEDENNE,37,39
+    10,GIRAFARIG,37,39
+    10,HEATMOR,37,39
+    10,INDEEDEE,37,39
+    10,KECLEON,37,39
+#-------------------------------
+[018] # Ruta 39
+Land,21
+    10,EMOLGA,37,39
+    10,JIGGLYPUFF,37,39
+    10,GALVANTULA,37,39
+    10,MILTANK,37,39
+    10,PINCURCHIN,37,39
+    10,DUBWOOL,37,39
+    10,TAUROS,37,39
+    10,TAUROS_1,37,39
+    10,TAUROS_2,37,39
+    10,TAUROS_3,37,39
+#-------------------------------
+[019] # Ciudad Olivo
+Land,21
+    10,APPLIN,42,45
+    10,CAPSAKID,42,45
+    10,CRAMORANT,42,45
+    10,DRAMPA,42,45
+    10,ESPATHRA,42,45
+    10,ELDEGOSS,42,45
+    10,HAWLUCHA,42,45
+    10,KLEFKI,42,45
+#-------------------------------
+[030] # Ruta 46
+Land,21
+    10,GEODUDE,3,5
+    10,GULPIN,3,5
+    10,HOUNDOUR,3,5
+    10,MEOWTH,3,5
+    10,ZUBAT,3,5
+    10,NUMEL,3,5
+    10,PANCHAM,3,5
+    10,PAWMI,3,5
+#-------------------------------
+[039] # Torre quemada
+Cave,21
+    10,CORSOLA_1,37,39
+    10,DREEPY,37,39
+    10,DUSKULL,37,39
+    10,GASTLY,37,39
+    10,GIMMIGHOUL,37,39
+    10,HOUNDSTONE,37,39
+    10,DOUBLADE,37,39
+    10,MISMAGIUS,37,39
+    10,POLTCHAGEIST,37,39
+    10,SABLEYE,37,39
+    10,SHUPPET,37,39
+    10,SINISTEA,37,39
+    10,ZORUA_1,37,39
+    10,MIMIKYU,37,39
+#-------------------------------
+[045] # Ruinas Alfa
+Land,21
+    10,HATENNA,11,13
+    10,IMPIDIMP,11,13
+    10,MEDITITE,11,13
+    10,YAMASK,11,13
+    10,YAMASK_1,11,13
+    10,SEVIPER,11,13
+    10,SHROODLE,11,13
+    10,TOXEL,11,13
+    10,ZANGOOSE,11,13
+Water,2
+    60,GOLDEEN,42,45
+    40,POLIWAG,42,45
+OldRod
+    100,DRATINI,11,13
+#-------------------------------
+[049] # Pozo Slowpoke
+Cave,21
+    10,BALTOY,20,23
+    10,DIGLETT,20,23
+    10,DIGLETT_1,20,23
+    10,GEODUDE,20,23
+    10,GEODUDE_1,20,23
+    10,PSYDUCK,20,23
+    10,SLOWPOKE,20,23
+    10,SLOWPOKE_1,20,23
+Water,2
+    50,SLOWPOKE,42,45
+    50,SLOWPOKE_1,20,23
+OldRod
+    50,SLOWPOKE,20,23
+    50,SLOWPOKE_1,20,23
+#-------------------------------
+[051] # Pozo Slowpoke 1
+Cave,21
+    10,BALTOY,20,23
+    10,DIGLETT,20,23
+    10,DIGLETT_1,20,23
+    10,GEODUDE,20,23
+    10,GEODUDE_1,20,23
+    10,PSYDUCK,20,23
+    10,SLOWPOKE,20,23
+    10,SLOWPOKE_1,20,23
+Water,2
+    50,SLOWPOKE,42,45
+    50,SLOWPOKE_1,20,23
+OldRod
+    100,FEEBAS,20,23
+#-------------------------------
+[054] # Cueva oscura 1
+Cave,5
+    10,ARON,9,10
+    10,DWEBBLE,9,10
+    10,GEODUDE,9,10
+    10,GEODUDE_1,9,10
+    10,LARVITAR,9,10
+    10,MACHOP,9,10
+    10,ONIX,9,10
+    10,ZUBAT,9,10
+    10,ROLYCOLY,9,10
+Water,2
+    50,QUAGSIRE,42,45
+    50,WHISCASH,20,23
+OldRod
+    100,PALPITOAD,20,23
+#-------------------------------
+[056] # Cueva union
+Cave,5
+    10,MAKUHITA,16,19
+    10,NACLI,16,19
+    10,ROCKRUFF,16,19
+    10,ROGGENROLA,16,19
+    10,TORKOAL,16,19
+    10,WOOBAT,16,19
+Water,2
+    50,DREDNAW,42,45
+    50,WHISCASH,20,23
+OldRod
+    100,BARBOACH,15,16
+#-------------------------------
+[057] # Cueva union 2
+Cave,5
+    10,MAKUHITA,16,19
+    10,NACLI,16,19
+    10,ROCKRUFF,16,19
+    10,ROGGENROLA,16,19
+    10,TORKOAL,16,19
+    10,WOOBAT,16,19
+Water,2
+    50,DREDNAW,42,45
+    50,WHISCASH,20,23
+OldRod
+    100,MAGIKARP,15,16
+#-------------------------------
+[058] # Cueva union 3
+Cave,5
+    10,MAKUHITA,16,19
+    10,NACLI,16,19
+    10,ROCKRUFF,16,19
+    10,ROGGENROLA,16,19
+    10,TORKOAL,16,19
+    10,WOOBAT,16,19
+Water,2
+    50,WHISCASH,20,23
+    20,LAPRAS,42,45
+OldRod
+    100,MAGIKARP,15,16
+#-------------------------------
+[060] # Ruinas
+Cave,5
+    100,UNOWN,6,7
+#-------------------------------
+[062] # Pozo Slowpoke 2
+Cave,21
+    10,BALTOY,20,23
+    10,DIGLETT,20,23
+    10,DIGLETT_1,20,23
+    10,GEODUDE,20,23
+    10,GEODUDE_1,20,23
+    10,PSYDUCK,20,23
+    10,SLOWPOKE,20,23
+    10,SLOWPOKE_1,20,23
+Water,2
+    50,SLOWPOKE,42,45
+    50,SLOWPOKE_1,20,23
+OldRod
+    50,SLOWPOKE,20,23
+    50,SLOWPOKE_1,20,23
+#-------------------------------
+[064] # Torre Bellsprout
+Cave,5
+    20,GASTLY,8,10
+    10,BELLSPROUT,8,10
+    10,HOOTHOOT,8,10
+    10,LITWICK,8,10
+    10,PUMPKABOO,8,10
+    10,RATTATA_1,8,10
+    10,SCRAGGY,8,10
+    10,SHUPPET,8,10
+#-------------------------------
+[065] # Torre Bellsprout Piso 1
+Cave,5
+    20,GASTLY,8,10
+    10,BELLSPROUT,8,10
+    10,HOOTHOOT,8,10
+    10,LITWICK,8,10
+    10,PUMPKABOO,8,10
+    10,RATTATA_1,8,10
+    10,SCRAGGY,8,10
+    10,SHUPPET,8,10
+#-------------------------------
+[077] # Torre quemada / 2
+Cave,21
+    10,CORSOLA_1,37,39
+    10,DREEPY,37,39
+    10,DUSKULL,37,39
+    10,GASTLY,37,39
+    10,GIMMIGHOUL,37,39
+    10,HOUNDSTONE,37,39
+    10,DOUBLADE,37,39
+    10,MISMAGIUS,37,39
+    10,POLTCHAGEIST,37,39
+    10,SABLEYE,37,39
+    10,SHUPPET,37,39
+    10,SINISTEA,37,39
+    10,ZORUA_1,37,39
+    10,MIMIKYU,37,39
+#-------------------------------
+[082] # Parque Nacional
+Land,21
+    10,COMBEE,31,33
+    10,DURANT,31,33
+    10,HERACROSS,31,33
+    10,KARRABLAST,31,33
+    10,LEDIAN,31,33
+    10,NINCADA,31,33
+    10,PARASECT,31,33
+    10,RELLOR,31,33
+    10,SCYTHER,31,33
+    10,SWADLOON,31,33
+    10,YANMA,31,33
+    10,BEEDRILL,31,33
+    10,PINSIR,31,33
+Water,2
+    60,DEWPIDER,42,45
+    40,MASQUERAIN,42,45
+OldRod
+    100,WIMPOD,31,33
+#-------------------------------
+[106] # Bosque Encinar
+Land,21
+    10,BURMY,20,23
+    10,ILLUMISE,20,23
+    10,KRICKETUNE,20,23
+    10,PINECO,20,23
+    10,SHROOMISH,20,23
+    10,SPIDOPS,20,23
+    10,VOLBEAT,20,23
+Water,2
+    60,QWILFISH,42,45
+    40,MARILL,42,45
+OldRod
+    100,PALPITOAD,20,23
+#-------------------------------
+[107] # Valle Oculto
+Land,21
+    10,CASTFORM,42,45
+    10,CHERUBI,42,45
+    10,MANECTRIC,42,45
+    10,PANPOUR,42,45
+    10,PANSAGE,42,45
+    10,PANSEAR,42,45
+    10,SKARMORY,42,45
+    10,SMEARGLE,42,45
+    10,STANTLER,42,45
+#-------------------------------
+[119] # Ruta 27
+Land,21
+    10,COMFEY,42,45
+    10,FARFETCHD,42,45
+    10,MAREANIE,42,45
+    10,SHIINOTIC,42,45
+    10,ORICORIO_1,42,45
+    10,ORICORIO_2,42,45
+    10,ORICORIO_3,42,45
+    10,VULLABY,42,45
+Water,2
+    50,ALOMOMOLA,42,45
+    50,JELLICENT,42,45
+OldRod
+    100,CORSOLA,31,33
+#-------------------------------
+[121] # Ciudad Orquídea
+Land,21
+    10,ARBOK,42,45
+    10,EXEGGUTOR_1,42,45
+    10,EXEGGUTOR,42,45
+    10,VENOMOTH,42,45
+    10,TANGELA,42,45
+    10,EEVEE,42,45
+    10,MELTAN,42,45
+    10,PYUKUMUKU,42,45
+    10,CYCLIZAR,42,45
+    10,TADBULB,42,45
+Water,2
+    50,WAILMER,42,45
+    50,LUMINEON,42,45
+OldRod
+    100,HORSEA,31,33
+#-------------------------------
+[122] # Ruta 40
+Land,21
+    10,CLEFAIRY,46,48
+    10,TIMBURR,46,48
+    10,PURRLOIN,46,48
+    10,MIMEJR,46,48
+    10,TROPIUS,46,48
+    10,PLUSLE,46,48
+    10,MINUN,46,48
+    10,SLAKOTH,46,48
+    10,SPINDA,42,45
+Water,2
+    50,MANTINE,46,48
+    50,TATSUGIRI,46,48
+OldRod
+    100,SHARPEDO,46,48
+#-------------------------------
+[075] # Ruta 40
+Land,21
+    10,CLEFAIRY,46,48
+    10,TIMBURR,46,48
+    10,PURRLOIN,46,48
+    10,MIMEJR,46,48
+    10,TROPIUS,46,48
+    10,PLUSLE,46,48
+    10,MINUN,46,48
+    10,SLAKOTH,46,48
+    10,SPINDA,42,45
+Water,2
+    50,MANTINE,46,48
+    50,TATSUGIRI,46,48
+OldRod
+    100,SHARPEDO,46,48
+#-------------------------------
+[124] # Pueblo Coralindo
+Land,21
+    10,VULPIX,49,51
+    10,PHANTUMP,49,51
+    10,PYROAR,49,51
+    10,ABRA,49,51
+    10,DITTO,49,51
+    10,BAGON,49,51
+    10,THROH,49,51
+    10,SAWK,49,51
+    10,GOTHORITA,49,51
+    10,PATRAT,42,45
+    10,LOPUNNY,42,45
+#-------------------------------
+[125] # Ruta 41
+Land,21
+    10,SIGILYPH,51,52
+    10,MARACTUS,51,52
+    10,EXCADRILL,51,52
+    10,GIBLE,51,52
+    10,HIPPOWDON,51,52
+    10,SANDILE,51,52
+    10,CUBONE,51,52
+    10,ORTHWORM,51,52
+    10,KLAWF,51,52
+    10,SILICOBRA,51,52
+    10,PALOSSAND,51,52
+    10,TRAPINCH,51,52
+    10,CACTURNE,51,52
+#-------------------------------
+[129] # Villa Aurelis
+Land,21
+    10,WUGTRIO,53,55
+    10,BOUFFALANT,53,55
+    10,BOMBIRDIER,53,55
+    10,STARAPTOR,53,55
+    10,EXPLOUD,53,55
+    10,ROTOM,53,55
+    10,FARIGIRAF,53,55
+Water,2
+    50,GRAPPLOCT,46,48
+    50,PALAFIN,46,48
+OldRod
+    100,VELUZA,46,48
+#----------------------------
+#-------------------------------
+[126] # Ruta 47
+Land,21
+    10,RAPIDASH,53,55
+    10,MAROWAK_1,53,55
+    10,CENTISKORCH,53,55
+    10,LARVESTA,53,55
+    10,SALAZZLE,53,55
+    10,SLUGMA,53,55
+    10,TURTONATOR,53,55
+    10,DARMANITAN,53,55
+#-------------------------------
+[127] # Villa Luminagua
+Land,21
+    10,SNEASLER,55,57
+    10,VOLTORB_1,55,57
+    10,SLIGGOO_1,55,57
+    10,BRAVIARY_1,55,57
+    10,LILLIGANT_1,55,57
+    10,RAICHU_1,55,57
+    10,KOFFING,55,57
+    10,WEEZING_1,55,57
+    10,BELDUM,55,57
+    10,FOONGUS,55,57
+Water,2
+    50,DONDOZO,46,48
+    50,TYNAMO,46,48
+OldRod
+    100,SKRELP,46,48
