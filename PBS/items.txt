@@ -6819,3 +6819,110 @@ FieldUse = Direct
 Flags = KeyItem
 Description = Incubadora que permite mantener 6 huevos hasta que eclosionen.
 #-------------------------------
+[EGGMIST]
+Name = Huevo Mist.
+NamePlural = Huevos Mist.
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Huevo Misterioso, deberia revisarlo el profesor Elm.
+#-------------------------------
+[TIJERAS]
+Name = Tijeras
+NamePlural = Tijeras
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Tijeras ultraresistentes que permiten cortar algunos arboles del camino.
+#-------------------------------
+[ALA_PLATEADA]
+Name = Pluma Plateada
+NamePlural = Pluma Plateada
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Misteriosa ala de un brillante color plateado.
+#-------------------------------
+[ALA_ARCOIRIS]
+Name = Pluma arcoíris
+NamePlural = Pluma arcoíris
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Se trata de una mística pluma de todos los colores como el arcoíris
+#-------------------------------
+[PLUMA_INCOLORA]
+Name = Pluma incolora
+NamePlural = Pluma incolora
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Parece una pluma común y corriente.
+#-------------------------------
+[PIEDRA_EXTRANA]
+Name = Piedra_Extraña
+NamePlural = Piedra_Extraña
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Parece una Piedra común y corriente.
+#-------------------------------
+[POKEVIAL]
+Name = Poke Vial
+NamePlural = Poke Vial
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Vial recargable, se puede usar para recuper la salud de los Pokémon.
+#-------------------------------
+[POKEMONTURA]
+Name = Poke Montura
+NamePlural = Poke Montura
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Se utiliza para llamar a los Pokémon aquáticos que sirven de Pokémontura.
+#-------------------------------
+[FERALIGATRTITE]
+Name = Feraligatrtita
+NamePlural = Feraligatrtitas
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = Una de las misteriosas Megapiedras. Permite megaevolucionar a Feraligatr en combate.
+#-------------------------------
+[TYPHLOSIONITE]
+Name = Typhlosionita
+NamePlural = Typhlosionitas
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = Una de las misteriosas Megapiedras. Permite megaevolucionar a Typhlosion en combate.
+#-------------------------------
+[MEGANIUMITE]
+Name = Meganiumita
+NamePlural = Meganiumitas
+Pocket = 1
+Price = 0
+BPPrice = 50
+Flags = MegaStone,Fling_80
+Description = Una de las misteriosas Megapiedras. Permite megaevolucionar a Meganium en combate.
+#-------------------------------
+[TIKETBARCO]
+Name = Tíquet Barco
+NamePlural = Tíquets Barco
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Tiquet para viajar en Ferry hasta ciudad Orquídea.
