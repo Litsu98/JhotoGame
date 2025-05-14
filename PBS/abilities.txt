@@ -1251,3 +1251,7 @@ Description = Su caparazón encierra energía de todos los tipos. Gracias a ello
 [TERAFORMZERO]
 Name = Teracaparazón
 Description = Cuando Terapagos adopta la Forma Astral, anula todos los efectos del tiempo atmosférico y de los campos que haya en el terreno gracias a su poder oculto.
+#-------------------------------
+[BERSERK_MODE]
+Name = Modo Berserker
+Description = Cuando la salud del Pokémon baja a la mitad, aumenta su ataque y defensa en 1.5x.

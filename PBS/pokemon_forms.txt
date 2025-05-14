@@ -2873,3 +2873,10 @@ Weight = 77.0
 Shape = Head
 Pokedex = Adopta esta forma cuando su energía Teracristal se ve amplificada descomunalmente. Se asemeja a la imagen del mundo que la gente tenía antaño.
 Flags = Legendary,TeraType_STELLAR
+#-------------------------------
+[LUGIA,1]
+FormName = Lugia Oscuro
+BaseStats = 120,120,140,110,130,154
+BaseExp = 315
+Abilities = BERSERK_MODE
+HiddenAbilities = BERSERK_MODE
