@@ -420,3 +420,11 @@ IntroBGM = GymBattle2.ogg
 VictoryBGM = VictoryLeader.ogg
 BattleBGM = TeainerBattleOst.ogg
 #-------------------------------
+[CIENTIFICO]
+Name = Científico
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------

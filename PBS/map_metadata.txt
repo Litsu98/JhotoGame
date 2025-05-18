@@ -638,6 +638,7 @@ BattleBack = Forest
 [123]   # Raid 22
 Name = Raid 16
 MapPosition = 0,3,13
+BattleBack = forest
 #-------------------------------
 [124]   # Villa Aurelis
 Name = Pueblo Coralindro
@@ -678,10 +679,13 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 MapPosition = 0,1,13
+BattleBack = forest
 #-------------------------------
 [132]   # intro2
 Name = intro2
 SnapEdges = true
+#-------------------------------
+[137]   # Raid 24
 #-------------------------------
 [140]   # Gym Orquídea
 Name = Gym
@@ -747,5 +751,24 @@ BattleBack = interior
 Name = Gimnasio Pokémon
 BattleBack = interior
 #-------------------------------
+[179]   # Guarida Rocket Tojo
+BattleBack = interior
+#-------------------------------
+[180]   # Guarida Rocket Tojo
+BattleBack = interior
+#-------------------------------
+[181]   # Guarida Rocket Tojo
+BattleBack = interior
+#-------------------------------
+[183]   # Guarida Rocket Tojo
+BattleBack = interior
+#-------------------------------
+[184]   # Guarida Rocket Tojo
+BattleBack = interior
+#-------------------------------
 [187]   # Torre Campana
+Name = Torre Campana
 BattleBack = campana2
+#-------------------------------
+[191]   # Raid 25
+BattleBack = forest

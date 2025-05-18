@@ -1672,3 +1672,43 @@ LoseText = ¡Vaya, qué golpe más duro…!
 Pokemon = GOLEM,66
 Pokemon = GLISCOR,66
 #-------------------------------
+[ROKETO,Soldado,20]
+LoseText = ¡No puede ser!
+Pokemon = GARBODOR,70
+Pokemon = TYRANITAR,70
+Pokemon = TOXTRICITY,70
+#-------------------------------
+[ROKETA,Soldado,20]
+LoseText = ¡Rayos, el jefe me va a matar!
+Pokemon = GASTRODON,70
+Pokemon = DURANT,70
+Pokemon = CROBAT,70
+#-------------------------------
+[ROKETO,Soldado,21]
+LoseText = No...
+Pokemon = MIMIKYU,71
+Pokemon = KOMMOO,71
+Pokemon = OBSTAGOON,71
+Pokemon = MAGNEZONE,71
+#-------------------------------
+[ROKETA,Soldado,21]
+LoseText = ¡No, no, no!
+Pokemon = PANGORO,70
+Pokemon = KROOKODILE,70
+#-------------------------------
+[CIENTIFICO,loco]
+LoseText = ¡No, no, no!
+Pokemon = PORYGONZ,70
+Pokemon = METAGROSS,70
+#-------------------------------
+[ROKETA,Soldado,22]
+LoseText = ¡No, no, no!
+Pokemon = SKUNTANK,71
+Pokemon = GOLURK,71
+Pokemon = NOIVERN,71
+#-------------------------------
+[ROKETO,Soldado,22]
+LoseText = No...
+Pokemon = CORVIKNIGHT,72
+Pokemon = SWALOT,72
+#-------------------------------
