@@ -150,6 +150,7 @@ class Pokemon
   def initialize(species, level, owner = $player, withMoves = true, recheck_form = true)
     # Verificar si este Pokémon debe ser randomizado o no
     if $game_switches[67]
+      
       # Si el switch 67 está activado, no randomizamos este Pokémon (por ejemplo, el Mega)
       randomized_init(species, level, owner, withMoves, recheck_form)
   

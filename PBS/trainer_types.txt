@@ -193,7 +193,7 @@ BattleBGM = TeainerBattleOst.ogg
 Name = Recluta Rocket
 Gender = Male
 BaseMoney = 60
-IntroBGM = Chico.ogg
+IntroBGM = Grunt.ogg
 VictoryBGM = TrainerVictory.ogg
 BattleBGM = BattleRocket.ogg
 #-------------------------------
@@ -201,7 +201,7 @@ BattleBGM = BattleRocket.ogg
 Name = Recluta Rocket
 Gender = Female
 BaseMoney = 60
-IntroBGM = Chico.ogg
+IntroBGM = Grunt.ogg
 VictoryBGM = TrainerVictory.ogg
 BattleBGM = BattleRocket.ogg
 #-------------------------------

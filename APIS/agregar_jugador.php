@@ -6,9 +6,9 @@ error_reporting(E_ALL);
 
 // Configuración de la base de datos
 $host = 'localhost';
-$usuario = 'root';
-$contraseña = '';
-$base_de_datos = 'jhoto';
+$usuario = 'navihqup_litsu';
+$contraseña = 'x_@5wBI{t&C{';
+$base_de_datos = 'navihqup_jhoto';
 
 $conexion = new mysqli($host, $usuario, $contraseña, $base_de_datos);
 

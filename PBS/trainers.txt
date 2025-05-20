@@ -1712,3 +1712,19 @@ LoseText = No...
 Pokemon = CORVIKNIGHT,72
 Pokemon = SWALOT,72
 #-------------------------------
+[ROKETO,Soldado,23]
+LoseText = ¡Imposible!
+Pokemon = CROBAT,72
+Pokemon = WEEZING,72
+#-------------------------------
+[ROKETA,Soldado,23]
+LoseText = ¡No, no, no!
+Pokemon = MUK,72
+Pokemon = TYRANITAR,72
+Pokemon = TENTACRUEL,72
+#-------------------------------
+[ROKETO,Soldado,24]
+LoseText = ¡¿Qué rayos?!
+Pokemon = MABOSSTIFF,72
+Pokemon = MANDIBUZZ,72
+Pokemon = TANGROWTH,72

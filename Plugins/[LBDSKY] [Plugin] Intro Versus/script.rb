@@ -285,7 +285,7 @@ module Graphics
               @boton_turbo.dispose
           end
       end
-      TrainerSensor.update if $scene && $scene.is_a?(Scene_Map)
+      # TrainerSensor.update if $scene && $scene.is_a?(Scene_Map)
   end
 
   # duration is in 1/20ths of a second
