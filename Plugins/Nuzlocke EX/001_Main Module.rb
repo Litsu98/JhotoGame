@@ -97,20 +97,39 @@ module ChallengeModes
   #-----------------------------------------------------------------------------
   # Set and check for encounter on map
   #-----------------------------------------------------------------------------
-  def set_first_encounter(pkmn, owned_flag = nil)
-    return if !ChallengeModes.on?(:ONE_CAPTURE)
-    return if $mystery_gift
-    sp_data  = GameData::Species.get_species_form(pkmn.species, pkmn.form)
-    captured = true
+def set_first_encounter(pkmn, owned_flag = nil, force_mark = false)
+  return if !ChallengeModes.on?(:ONE_CAPTURE)
+  return if $mystery_gift
+
+  sp_data  = GameData::Species.get_species_form(pkmn.species, pkmn.form)
+  captured = true
+
+  # Sólo aplicar reglas si no se fuerza marcar
+  unless force_mark
     captured = false if ChallengeModes::ONE_CAPTURE_WHITELIST.any? { |s| pkmn.isSpecies?(s) }
     captured = false if sp_data.has_flag?("OneCaptureWhitelist")
+
     if ChallengeModes.on?(:DUPS_CLAUSE)
       sp_data.get_family_species.each do |pk| 
         captured = false if owned_flag.nil? ? $player.owned?(pk) : owned_flag
       end
     end
+
     captured = false if ChallengeModes.on?(:SHINY_CLAUSE) && pkmn.shiny?
-    return if !captured
+  end
+
+  return if !captured
+
+  map_id = $game_map.map_id
+  $PokemonGlobal.challenge_encs[map_id] = true
+  ChallengeModes::SPLIT_MAPS_FOR_ENCOUNTERS.each do |map_grp|
+    next if !map_grp.include?(map_id)
+    map_grp.each { |m| $PokemonGlobal.challenge_encs[m] = true }
+  end
+end
+
+
+  def mark_route_captured(pkmn)
     map_id = $game_map.map_id
     $PokemonGlobal.challenge_encs[map_id] = true
     ChallengeModes::SPLIT_MAPS_FOR_ENCOUNTERS.each do |map_grp|

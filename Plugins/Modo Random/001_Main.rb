@@ -131,16 +131,32 @@ class Pokemon
       return 0
   end
 
-  def getRandomSpecies
-      species_num = rand(GameData::Species.species_count - 1) + 1
-      count = 1
-      GameData::Species.each_species do |species| 
-        if count == species_num
-            return species
-        end
-        count += 1
-      end
+  def is_banned_species_form?(species_data)
+    if SALVAJES_BANEADOS.include?(species_data.id)
+      puts "[Filtro activado] Baneado por especie: #{species_data.id}"
+      return true
+    elsif SALVAJES_FORMAS_BANEADAS.include?([species_data.id, species_data.form])
+      puts "[Filtro activado] Baneado por forma: #{species_data.id} con forma #{species_data.form}"
+      return true
+    end
+    return false
   end
+
+
+
+  def getRandomSpecies(salvaje = false)
+    species_list = []
+
+    GameData::Species.each do |species_data|
+      next if salvaje && is_banned_species_form?(species_data)
+      species_list << species_data
+    end
+
+    return species_list.sample
+  end
+
+
+
   
   def compare_bst(bst)
     return false if !$PokemonGlobal.progressive_random
@@ -158,15 +174,19 @@ class Pokemon
       $game_switches[67] = false
     else
       # Realizar la randomización normal para los demás Pokémon
-      if $game_switches && $game_switches[RandomizedChallenge::Switch]
+      if $game_switches && $game_switches[::RandomizedChallenge::Switch]
         species = RandomizedChallenge::WhiteListedPokemon.shuffle[0]
         if RandomizedChallenge::WhiteListedPokemon.length == 0
-          species = getRandomSpecies()
+          is_salvaje = $random_challenge_generating_wild_pokemon || !(owner && owner.is_a?(NPCTrainer) || owner == $player)
+          species = getRandomSpecies(is_salvaje)
           bst = species.base_stats.values.sum
           previous_species = GameData::Species.get(species.get_previous_species)
           $PokemonGlobal.randomGens = [] if !$PokemonGlobal.randomGens
           while !species || RandomizedChallenge::BlackListedPokemon.include?(species.species) || compare_bst(bst) || ( $PokemonGlobal.randomGens.length > 0 && !$PokemonGlobal.randomGens.include?(species.generation) && !$PokemonGlobal.randomGens.include?(previous_species.generation) )
-            species = getRandomSpecies()
+            puts "[DEBUG] Owner class: #{owner.class}"
+            puts "[DEBUG] Owner: #{owner.inspect}"
+            is_salvaje = $random_challenge_generating_wild_pokemon || !(owner && owner.is_a?(NPCTrainer) || owner == $player)
+            species = getRandomSpecies(is_salvaje)
             bst = species.base_stats.values.sum
             previous_species = GameData::Species.get(species.get_previous_species)
           end

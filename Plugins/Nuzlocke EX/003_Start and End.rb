@@ -49,7 +49,7 @@ def pbStartOver(*args)
   if resume && !ChallengeModes.on?(:GAME_OVER_WHITEOUT)
     loop do
       pbMessage("\\w[]\\wm\\c[8]\\l[3]" + 
-        _INTL("All your Pokémon have fainted. But you still have Pokémon in your PC which you can continue the challenge with."))
+        _INTL("Todos tus Pokémon se han debilitado. Pero aún tienes Pokémon en tu PC con los que puedes continuar."))
       pbFadeOutIn(99999) {
         scene = PokemonStorageScene.new
         screen = PokemonStorageScreen.new(scene, $PokemonStorage)
@@ -58,9 +58,30 @@ def pbStartOver(*args)
       break if $player.able_pokemon_count != 0
     end
   else
-    pbMessage("\\w[]\\wm\\c[8]\\l[3]" + 
-      _INTL("All your Pokémon have fainted. You have lost the challenge! All challenge modifiers will now be turned off."))
+    eliminar_jugador($player.name, $player.id)
+    pbMessage("\\w[]\\wm\\c[8]\\l[3]" +
+      _INTL("Todos tus Pokémon se han debilitado. Has perdido."))
     ChallengeModes.set_loss
+
+    # --- Borrado de la partida en AppData/Roaming/La Base de Sky ---
+    begin
+      # Ruta a %APPDATA%\La Base de Sky\Game.rxdata
+      appdata = ENV["APPDATA"]
+      save_dir = File.join(appdata, "La Base de Sky")
+      save_file = File.join(save_dir, "Game.rxdata")
+      bak_file  = save_file + "bak"
+
+      if File.exist?(save_file)
+        File.delete(save_file)
+       
+      elsif File.exist?(bak_file)
+        File.delete(bak_file)
+      else
+      end
+    rescue => e
+    end
+    Kernel.exit
   end
+
   return __challenge__pbStartOver(*args)
 end

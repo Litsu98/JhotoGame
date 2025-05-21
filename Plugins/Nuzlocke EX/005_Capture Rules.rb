@@ -38,6 +38,7 @@ class Battle
   alias __challenge__pbThrowPokeBall pbThrowPokeBall unless method_defined?(:__challenge__pbThrowPokeBall)
   def pbThrowPokeBall(*args)
     return __challenge__pbThrowPokeBall(*args) if !ChallengeModes.on?
+
     battler = nil
     if opposes?(args[0])
       battler = @battlers[args[0]]
@@ -45,15 +46,27 @@ class Battle
       battler = @battlers[args[0]].pbDirectOpposing(true)
     end
     battler = battler.allAllies.first if battler.fainted?
+
     caught   = @caughtPokemon.length
     owned_b4 = false
-    old_ball = @first_poke_ball
     battler.pokemon.species_data.get_family_species.each { |pk| owned_b4 = true if $player.owned?(pk) }
-    ret      = __challenge__pbThrowPokeBall(*args)
-    # Flag for caught Pokemon for map
-    ChallengeModes.set_first_encounter(battler, owned_b4) if [1, 4].include?(@decision) || @caughtPokemon.length != caught 
+
+    ret = __challenge__pbThrowPokeBall(*args)
+
+    if ChallengeModes.on?(:DUPS_CLAUSE)
+      if @caughtPokemon.length != caught
+        ChallengeModes.set_first_encounter(battler, owned_b4, true)
+      end
+    else
+      if [1, 4].include?(@decision) || @caughtPokemon.length != caught
+        ChallengeModes.set_first_encounter(battler, owned_b4)
+      end
+    end
+
     return ret
   end
+
+
 end
 
 ItemHandlers::CanUseInBattle.remove(:poke_balls)
@@ -65,18 +78,18 @@ ItemHandlers::CanUseInBattle.addIf(:poke_balls,
       next false
     end
     if battle.disablePokeBalls
-      scene.pbDisplay(_INTL("You can't throw a Poké Ball!")) if showMessages
+      scene.pbDisplay(_INTL("¡No puedes lanzar una Poké Ball.!")) if showMessages
       next false
     end
     # NOTE: Using a Poké Ball consumes all your actions for the round. The code
     #       below is one half of making this happen; the other half is in def
     #       pbItemUsesAllActions?.
     if !firstAction
-      scene.pbDisplay(_INTL("It's impossible to aim without being focused!")) if showMessages
+      scene.pbDisplay(_INTL("¡Es imposible apuntar sin estar concentrado!")) if showMessages
       next false
     end
     if battler.semiInvulnerable?
-      scene.pbDisplay(_INTL("It's no good! It's impossible to aim at a Pokémon that's not in sight!")) if showMessages
+      scene.pbDisplay(_INTL("¡No sirve de nada! ¡Es imposible apuntar a un Pokémon que no está a la vista!")) if showMessages
       next false
     end
     # NOTE: The code below stops you from throwing a Poké Ball if there is more
@@ -85,9 +98,9 @@ ItemHandlers::CanUseInBattle.addIf(:poke_balls,
     #       them if they are trying to catch a non-Shadow Pokémon.)
     if battle.pbOpposingBattlerCount > 1 && !(GameData::Item.get(item).is_snag_ball? && battle.trainerBattle?)
       if battle.pbOpposingBattlerCount == 2
-        scene.pbDisplay(_INTL("It's no good! It's impossible to aim when there are two Pokémon!")) if showMessages
+        scene.pbDisplay(_INTL("¡No sirve de nada! ¡Es imposible apuntar cuando hay dos Pokémon!")) if showMessages
       elsif showMessages
-        scene.pbDisplay(_INTL("It's no good! It's impossible to aim when there is more than one Pokémon!"))
+        scene.pbDisplay(_INTL("¡No sirve de nada! ¡Es imposible apuntar cuando hay más de un Pokémon!"))
       end
       next false
     end
@@ -98,9 +111,17 @@ ItemHandlers::CanUseInBattle.addIf(:poke_balls,
       if showMessages
         rule_name = _INTL(ChallengeModes::RULES[:ONE_CAPTURE][:name])
         pbSEStop
-        pbMessage(_INTL("The \"{1}\" rule prevents you from catching a Pokémon on a map you already had an encounter on!", rule_name))
+        pbMessage(_INTL("¡No puedes capturar un Pokémon en un mapa donde ya has tenido un encuentro."))
       end
       next false
+    end
+    if ChallengeModes.on? && ChallengeModes.on?(:DUPS_CLAUSE) && !ChallengeModes.had_first_encounter?(target)
+      family_species = target.pokemon.species_data.get_family_species
+      already_owned = family_species.any? { |pk| $player.owned?(pk) }
+      if already_owned
+        scene.pbMessage(_INTL("Ya tienes esa especie de pokémon, deberás capturar al siguiente.")) if showMessages
+        next false
+      end
     end
     next true
   }
@@ -116,7 +137,7 @@ def pbAddPokemon(*args)
   pkmn = Pokemon.new(pkmn, level) if !pkmn.is_a?(Pokemon)
   if ChallengeModes.had_first_encounter?(pkmn)
     rule_name = _INTL(ChallengeModes::RULES[:ONE_CAPTURE][:name])
-    pbMessage(_INTL("The \"{1}\" rule prevents you from obtaining a Pokémon on a map you already had an encounter on!", rule_name))
+    pbMessage(_INTL("¡No puedes capturar un Pokémon en un mapa donde ya has tenido un encuentro."))
     return false
   end
   ret = __challenge__pbAddPokemon(*args)
@@ -142,7 +163,7 @@ def pbAddToParty(*args)
   pkmn = Pokemon.new(pkmn, level) if !pkmn.is_a?(Pokemon)
   if ChallengeModes.had_first_encounter?(pkmn)
     rule_name = _INTL(ChallengeModes::RULES[:ONE_CAPTURE][:name])
-    pbMessage(_INTL("The \"{1}\" rule prevents you from obtaining a Pokémon on a map you already had an encounter on!", rule_name))
+    pbMessage(_INTL("¡No puedes capturar un Pokémon en un mapa donde ya has tenido un encuentro."))
     return false
   end
   ret = __challenge__pbAddToParty(*args)
@@ -168,7 +189,7 @@ def pbAddForeignPokemon(*args)
   pkmn = Pokemon.new(pkmn, level) if !pkmn.is_a?(Pokemon)
   if ChallengeModes.had_first_encounter?(pkmn)
     rule_name = _INTL(ChallengeModes::RULES[:ONE_CAPTURE][:name])
-    pbMessage(_INTL("The \"{1}\" rule prevents you from obtaining a Pokémon on a map you already had an encounter on!", rule_name))
+    pbMessage(_INTL("¡No puedes capturar un Pokémon en un mapa donde ya has tenido un encuentro."))
     return false
   end
   ret = __challenge__pbAddForeignPokemon(*args)
@@ -182,7 +203,7 @@ def pbGenerateEgg(*args)
   args[0] = Pokemon.new(args[0], Settings::EGG_LEVEL) if !args[0].is_a?(Pokemon)
   if ChallengeModes.had_first_encounter?(args[0])
     rule_name = _INTL(ChallengeModes::RULES[:ONE_CAPTURE][:name])
-    pbMessage(_INTL("The \"{1}\" rule prevents you from obtaining a Pokémon on a map you already had an encounter on!", rule_name))
+    pbMessage(_INTL("¡No puedes capturar un Pokémon en un mapa donde ya has tenido un encuentro."))
     return false
   end
   ret = __challenge__pbGenerateEgg(*args)
