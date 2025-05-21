@@ -1,5 +1,0 @@
-Name = Magic Gachapon Pastebin
-Version = 1.0
-Essentials = 21.1
-Conflicts = Magic Gachapon
-Credits = Kyo y Clara / Adaptación v21 Neme & Gonpaman(UI) / Adaptación a Pastebin Gonpaman / Ordenado y editado por Gonpaman para un uso más fácil, DPertierra
