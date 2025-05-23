@@ -1728,3 +1728,22 @@ LoseText = ¡¿Qué rayos?!
 Pokemon = MABOSSTIFF,72
 Pokemon = MANDIBUZZ,72
 Pokemon = TANGROWTH,72
+#-------------------------------
+[ROKETA,Soldado,24]
+LoseText = ¡No, no, no!
+Pokemon = MUK,72
+    Form=1
+Pokemon = SEVIPER,72
+Pokemon = CRAWDAUNT,72
+#-------------------------------
+[ROKETO,Soldado,25]
+LoseText = ¡No puede ser...!
+Pokemon = CLAYDOL,72
+Pokemon = LICKILICKY,72
+#-------------------------------
+[ROKETO,Soldado,26]
+LoseText = ¡Me han vencido!
+Pokemon = RATICATE,73
+    Form=1
+Pokemon = SNEASLER,73
+Pokemon = NIDOKING,73
