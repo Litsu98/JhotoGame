@@ -1747,3 +1747,55 @@ Pokemon = RATICATE,73
     Form=1
 Pokemon = SNEASLER,73
 Pokemon = NIDOKING,73
+#-------------------------------
+[ROKETA,Soldado,25]
+LoseText = ¿¡Cómo!?
+Pokemon = VICTREEBEL,73
+Pokemon = CROBAT,73
+#-------------------------------
+[ROKETA,Soldado,26]
+LoseText = Tsk...
+Pokemon = MIGHTYENA,73
+Pokemon = GARBODOR,73
+Pokemon = TOXICROAK,73
+#-------------------------------
+[GIOVANNI,Giovanni]
+LoseText = Jejeje...
+Items = HYPERPOTION,HYPERPOTION,MEGARING
+Pokemon = TYRANITAR,73
+    Moves = STONEEDGE,PURSUIT,EARTHQUAKE,SUPERPOWER
+    AbilityIndex = 0
+    Item = ASSAULTVEST
+    IV = 31,31,31,31,31,31
+    EV = 100,100,100,0,100,100
+Pokemon = PERSIAN,75
+    Moves = FAKEOUT,KNOCKOFF,UTURN,PLAYROUGH
+    Item = FOCUSSASH
+    AbilityIndex = 1
+    IV = 31,31,31,31,31,31
+    EV = 100,100,100,0,100,100
+Pokemon = RHYDON,75
+    Moves = HORNDRILL,EARTHQUAKE, STEALTHROCK, STONEEDGE
+    AbilityIndex = 0
+    Item = EVIOLITE
+    IV = 31,31,31,31,31,31
+    EV = 100,100,100,0,100,100
+Pokemon = GARCHOMP,75
+    Moves = DRAGONCLAW,EARTHQUAKE,SWORDSDANCE,IRONHEAD
+    Item = GARCHOMPITE
+    AbilityIndex = 0
+    IV = 31,31,31,31,31,31
+    EV = 100,100,100,0,100,100
+Pokemon = FERROTHORN,75
+    Moves = LEECHSEED,GYROBALL,POWERWHIP,THUNDERWAVE
+    Item = LEFTOVERS
+    AbilityIndex = 0
+    IV = 31,31,31,31,31,31
+    EV = 100,100,100,0,100,100
+Pokemon = NIDOKING,75
+    Moves = SLUDGEWAVE,EARTHPOWER,ICEBEAM,THUNDERBOLT
+    AbilityIndex = 2
+    Item = LIFEORB
+    IV = 31,31,31,31,31,31
+    EV = 100,0,100,100,100,100
+#-------------------------------

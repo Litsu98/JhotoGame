@@ -428,3 +428,11 @@ IntroBGM = Chico.ogg
 VictoryBGM = TrainerVictory.ogg
 BattleBGM = TeainerBattleOst.ogg
 #-------------------------------
+[GIOVANNI]
+Name = Jefe Rocket
+Gender = male
+BaseMoney = 200
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = VS-Giovanni.ogg
+#-------------------------------
