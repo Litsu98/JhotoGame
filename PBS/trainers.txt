@@ -1748,7 +1748,7 @@ Pokemon = RATICATE,73
 Pokemon = SNEASLER,73
 Pokemon = NIDOKING,73
 #-------------------------------
-[ROKETA,Soldado,25]
+[ROKETA,Soldado,27]
 LoseText = ¿¡Cómo!?
 Pokemon = VICTREEBEL,73
 Pokemon = CROBAT,73
@@ -1798,4 +1798,29 @@ Pokemon = NIDOKING,75
     Item = LIFEORB
     IV = 31,31,31,31,31,31
     EV = 100,0,100,100,100,100
+#-------------------------------
+[ROKETO,Soldado,28]
+LoseText = ¡Me han vencido!
+Pokemon = RATICATE,75
+    Form=1
+Pokemon = SNEASLER,75
+Pokemon = NIDOKING,75
+#-------------------------------
+[ROKETO,Soldado,29]
+LoseText = ¿¡Cómo!?
+Pokemon = MUK,75
+    Form=1
+Pokemon = NIDOQUEEN,75
+#-------------------------------
+[ROKETO,Soldado,30]
+LoseText = ¡Me han vencido!
+Pokemon = HYPNO,75
+Pokemon = CROBAT,75
+Pokemon = GYARADOS,75
+#-------------------------------
+[ROKETO,Soldado,31]
+LoseText = ¿¡Cómo!?
+Pokemon = CLODSIRE,75
+Pokemon = WEEZING,75
+Pokemon = SCIZOR,75
 #-------------------------------
