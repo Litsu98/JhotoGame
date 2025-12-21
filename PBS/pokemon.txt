@@ -1,5 +1,4 @@
-﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
-#-------------------------------
+﻿#-------------------------------
 [BULBASAUR]
 Name = Bulbasaur
 Types = GRASS,POISON
