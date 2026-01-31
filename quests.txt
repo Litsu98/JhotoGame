@@ -1,0 +1,17 @@
+[1]
+Nombre de la Misión: Fragmentos Escama.
+Descripcion de la Misión: Busca 3 fragmentos de Escama Corazón que se perdieron en la playa de Ciudad Cerezo.
+Entrega de la misión: Ciudad Cerezo
+Recompensa: RARECANDY
+
+[2]
+Nombre de la Misión: Entrega Express.
+Descripcion de la Misión: Lleva unas Poké Balls a una joven que está atrapando Pokémon en la Ruta 30.
+Entrega de la misión: Ciudad Cerezo
+Recompensa: RARECANDY, POKEBALL
+
+[3]
+Nombre de la Misión: Recolecta de Bayas.
+Descripcion de la Misión: Recoge 2 Bayas Aranja, 1 Baya Atania, 1 Baya Meloc y 1 Baya Zreza en la zona cercana.
+Entrega de la misión: Ciudad Cerezo
+Recompensa: RARECANDY

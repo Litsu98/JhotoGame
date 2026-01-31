@@ -1,5 +1,6 @@
 class QuestSystem
-    QUESTS_FILE = "quests/quests.txt"  # Archivo de misiones fijo
+   QUESTS_FILE = "quests.txt"
+  
   
     def self.load_quests
       quests = {}

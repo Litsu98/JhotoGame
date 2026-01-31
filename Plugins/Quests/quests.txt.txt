@@ -1,0 +1,11 @@
+[1]
+Nombre de la Misión: Primer Encargo
+Descripcion de la Misión: Encuentra al Pokémon perdido en el bosque.
+Entrega de la misión: Profesor Elm
+Recompensa: 500 Pokedólares
+
+[2]
+Nombre de la Misión: Prueba de habilidades
+Descripcion de la Misión: Derrota a 3 entrenadores en la ruta 29.
+Entrega de la misión: Ranger Leo
+Recompensa: MT31
