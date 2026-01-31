@@ -686,6 +686,7 @@ Name = intro2
 SnapEdges = true
 #-------------------------------
 [137]   # Raid 24
+Name = Raid 24
 #-------------------------------
 [140]   # Gym Orquídea
 Name = Gym
@@ -752,18 +753,23 @@ Name = Gimnasio Pokémon
 BattleBack = interior
 #-------------------------------
 [179]   # Guarida Rocket Tojo
+Name = Guarida Rocket Tojo
 BattleBack = interior
 #-------------------------------
 [180]   # Guarida Rocket Tojo
+Name = Guarida Rocket Tojo
 BattleBack = interior
 #-------------------------------
 [181]   # Guarida Rocket Tojo
+Name = Guarida Rocket Tojo
 BattleBack = interior
 #-------------------------------
 [183]   # Guarida Rocket Tojo
+Name = Guarida Rocket Tojo
 BattleBack = interior
 #-------------------------------
 [184]   # Guarida Rocket Tojo
+Name = Guarida Rocket Tojo
 BattleBack = interior
 #-------------------------------
 [187]   # Torre Campana
@@ -771,4 +777,10 @@ Name = Torre Campana
 BattleBack = campana2
 #-------------------------------
 [191]   # Raid 25
+Name = Raid 25
 BattleBack = forest
+#-------------------------------
+[195]   # Monte Plateado Exterior
+Outdoor = true
+ShowArea = true
+BattleBack = field

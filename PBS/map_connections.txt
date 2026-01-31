@@ -34,7 +34,7 @@
 25,East,0,26,West,0
 # Ruta 44 (27) - Pueblo Caoba (26)
 27,West,21,26,East,0
-# Ruta 43 (157) - Lago de la Furia (155)
-157,North,0,155,South,19
 # Ruta 45 (29) - Ciudad Endrino (28)
 29,North,0,28,South,0
+# Ruta 43 (157) - Lago de la Furia (155)
+157,North,0,155,South,19
