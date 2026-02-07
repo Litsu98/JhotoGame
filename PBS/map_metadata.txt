@@ -601,6 +601,7 @@ MapPosition = 0,9,6
 #-------------------------------
 [117]   # Paso a Ruinas Alfa
 Name = Paso a Ruinas Alfa
+ShowArea = true
 MapPosition = 0,16,13
 #-------------------------------
 [118]   # Paso a Ruinas Alfa 2
@@ -781,6 +782,7 @@ Name = Raid 25
 BattleBack = forest
 #-------------------------------
 [195]   # Monte Plateado Exterior
+Name = Monte Plateado Exterior
 Outdoor = true
 ShowArea = true
 BattleBack = field

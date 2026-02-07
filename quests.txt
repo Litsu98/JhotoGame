@@ -15,3 +15,9 @@ Nombre de la Misión: Recolecta de Bayas.
 Descripcion de la Misión: Recoge 2 Bayas Aranja, 1 Baya Atania, 1 Baya Meloc y 1 Baya Zreza en la zona cercana.
 Entrega de la misión: Ciudad Cerezo
 Recompensa: RARECANDY
+
+[4]
+Nombre de la Misión: Los 2 traviesos
+Descripcion de la Misión: Una señora ha perdido a sus tres Pachirisu, a los que les encanta esconderse por Ciudad Malva. Encuéntralos y devuélvelos con su dueña.
+Entrega de la misión: Ciudad Malva
+Recompensa: RARECANDY
