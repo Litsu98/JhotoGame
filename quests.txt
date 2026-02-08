@@ -21,3 +21,21 @@ Nombre de la Misión: Los 2 traviesos
 Descripcion de la Misión: Una señora ha perdido a sus tres Pachirisu, a los que les encanta esconderse por Ciudad Malva. Encuéntralos y devuélvelos con su dueña.
 Entrega de la misión: Ciudad Malva
 Recompensa: RARECANDY
+
+[5]
+Nombre de la Misión: Desafio Escolar
+Descripcion de la Misión: Tres niños de la escuela presumen de ser los mejores entrenadores del patio. Demuéstrales quién manda derrotándolos.
+Entrega de la misión: Ciudad Malva
+Recompensa: RARECANDY, QUICKCLAW
+
+[6]
+Nombre de la Misión: Carta Extraviada
+Descripcion de la Misión: Un mensajero dejo caer una carta cerca de la Ruta 29. Encuentrala y entregala en Ciudad Cerezo.
+Entrega de la misión: Ciudad Cerezo
+Recompensa: RARECANDY, ULTRABALL
+
+[7]
+Nombre de la Misión: Ruinas Alfa
+Descripcion de la Misión: Investiga las Ruinas Alfa. Debes descubrir todos sus secretos y resolver los puzzles antiguos.
+Entrega de la misión: Ruinas Alfa
+Recompensa: OLDAMBER, EXPCANDYXL 

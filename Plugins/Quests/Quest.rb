@@ -28,32 +28,59 @@ class QuestSystem
       return nil  # Si la misión no existe
     end
   
+    def self.normalize_quest_list(value)
+      return [] if value.nil?
+      return value.compact if value.is_a?(Array)
+      return [value] if value.is_a?(Integer)
+      []
+    end
+
     def self.get_active_quests
-      $game_variables[102] || []
+      load_active_quests
+      @active_quests
     end
   
     def self.get_completed_quests
-      $game_variables[103] || []
+      load_completed_quests
+      @completed_quests
     end
   
     def self.save_active_quests
-      $game_variables[102] = @active_quests
+      @active_quests = normalize_quest_list(@active_quests)
+      if $game_system
+        $game_system.quest_active_list = @active_quests.dup
+      end
+      $game_variables[102] = @active_quests.length
     end
   
     def self.save_completed_quests
-      $game_variables[103] = @completed_quests
+      @completed_quests = normalize_quest_list(@completed_quests)
+      if $game_system
+        $game_system.quest_completed_list = @completed_quests.dup
+      end
+      $game_variables[103] = @completed_quests.length
     end
   
     def self.load_active_quests
       $game_variables ||= []
-      $game_variables[102] ||= []
-      @active_quests = $game_variables[102]
+      if $game_system && $game_system.quest_active_list
+        @active_quests = normalize_quest_list($game_system.quest_active_list)
+      else
+        @active_quests = normalize_quest_list($game_variables[102])
+      end
+      @active_quests = @active_quests.dup
+      save_active_quests
     end
   
     def self.load_completed_quests
       $game_variables ||= []
-      $game_variables[103] ||= []
-      @completed_quests = $game_variables[103]
+      if $game_system && $game_system.quest_completed_list
+        @completed_quests = normalize_quest_list($game_system.quest_completed_list)
+      else
+        @completed_quests = normalize_quest_list($game_variables[103])
+      end
+      @completed_quests = @completed_quests.dup
+      save_completed_quests
     end
   
     def self.reset_active_quests
@@ -67,6 +94,8 @@ class QuestSystem
     load_completed_quests
   
     def self.activate_quest(quest_number)
+      load_active_quests
+      load_completed_quests
       quest = get_quest(quest_number)
       if quest && !@active_quests.include?(quest_number) && !@completed_quests.include?(quest_number)
         @active_quests << quest_number
@@ -106,18 +135,22 @@ class QuestSystem
     end
   
     def self.complete_quest(quest_number)
+      load_active_quests
+      load_completed_quests
       active_quests = get_active_quests  # Cargar las misiones activas
   
       if active_quests.include?(quest_number)  # Comprobar si la misión está activa
         quest = get_quest(quest_number)
         if quest
           # Mover la misión a la lista de misiones completadas
+          @completed_quests = normalize_quest_list(@completed_quests)
           @completed_quests << quest_number unless @completed_quests.include?(quest_number)
           save_completed_quests
           
           # Eliminarla de las misiones activas
           active_quests.delete(quest_number)
-          #save_active_quests
+          @active_quests = active_quests
+          save_active_quests
   
           # Mensaje de éxito
           pbMessage("¡Misión completada: #{quest["Nombre de la Misión"]}!")
@@ -145,3 +178,8 @@ class QuestSystem
       end
     end
   end
+
+class Game_System
+  attr_accessor :quest_active_list
+  attr_accessor :quest_completed_list
+end

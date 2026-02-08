@@ -1,4 +1,4 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [REPEL]
 Name = Repelente
@@ -873,6 +873,14 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = Permite repartir los Puntos de Exp. entre los Pokémon que el entrenador elija desde la opción del equipo.
+#-------------------------------
+[LOSTPACKAGE]
+Name = Paquete Extraviado
+NamePlural = Paquetes Extraviados
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = Un paquete perdido durante un ataque de Spearow. Debe entregarse a su destinatario en Ciudad Malva.
 #-------------------------------
 [AMULETCOIN]
 Name = Moneda Amuleto

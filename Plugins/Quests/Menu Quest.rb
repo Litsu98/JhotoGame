@@ -69,12 +69,12 @@ class QuestMenu_Scene
     
     if $game_variables[102] == 0
        #hide_details
-       complete_quest_list  # Mostrar la lista completa de misiones
-       pbShowQuestDetails(@selected_index + @scroll_offset)
+      complete_quest_list  # Mostrar la lista completa de misiones
+      pbShowQuestDetails(@selected_index)
      else
       #hide_details
       draw_quest_list  # Mostrar la lista normal de misiones
-      pbShowQuestDetails(@selected_index + @scroll_offset)
+      pbShowQuestDetails(@selected_index)
     end
   end
   
@@ -91,21 +91,29 @@ class QuestMenu_Scene
     return if @show_details
     @show_details = true
     draw_quest_list
-    pbShowQuestDetails(@selected_index + @scroll_offset)
+    pbShowQuestDetails(@selected_index)
   end
   
   def get_quest_names
     return [] unless @active_quests.is_a?(Array) # Verificar que sea un array
-    @active_quests.map do |quest|
+    @active_quests.each_with_object([]) do |quest, names|
       quest_data = QuestSystem.get_quest(quest)
-      quest_data ? quest_data["Nombre de la Misión"] : "Misión Desconocida"
+      next unless quest_data
+      names << quest_data["Nombre de la Misión"]
     end
   end
+
+  def filter_valid_quests
+    return [] unless @active_quests.is_a?(Array)
+    @active_quests = @active_quests.select { |quest_id| QuestSystem.get_quest(quest_id) }
+  end
+
   
     
   def draw_quest_list
     # Ordena las misiones por su ID antes de procesarlas
-    @active_quests = $game_variables[102].sort  # Ordenamos por ID (de menor a mayor)
+    @active_quests = QuestSystem.get_active_quests.sort
+    filter_valid_quests
     @quest_names = get_quest_names
     
     # Limpiar el bitmap
@@ -171,16 +179,20 @@ class QuestMenu_Scene
       marcador_y = 80  # Ajusta la posición vertical
       @sprites["img"].bitmap.blt(marcador_x, marcador_y, marcador_image, marcador_image.rect)
     
-      # Liberar la imagen después de usarla
+    # Liberar la imagen después de usarla
       sel_image.dispose
       marcador_image.dispose
+
+    # Si no hay misiones, limpiar detalles para evitar datos antiguos
+    @sprites["detailtext"].bitmap.clear if @quest_names.empty?
   end
   
   
   
   def complete_quest_list
     # Ordena las misiones por su ID antes de procesarlas
-    @active_quests = $game_variables[103].sort  # Ordenamos por ID (de menor a mayor)
+    @active_quests = QuestSystem.get_completed_quests.sort
+    filter_valid_quests
     @quest_names = get_quest_names
     
     # Limpiar el bitmap
@@ -254,10 +266,15 @@ class QuestMenu_Scene
       
     # Liberar la imagen después de usarla
     sel_image.dispose
+
+    # Si no hay misiones, limpiar detalles para evitar datos antiguos
+    @sprites["detailtext"].bitmap.clear if @quest_names.empty?
   end
   
     def pbShowQuestDetails(index)
+      return @sprites["detailtext"].bitmap.clear if @active_quests.empty?
       quest_number = @active_quests[@scroll_offset + index]  # ID real de la misión
+      return @sprites["detailtext"].bitmap.clear unless quest_number
       quest = QuestSystem.get_quest(quest_number)
       if quest
         @sprites["detailtext"].bitmap.clear
@@ -389,7 +406,7 @@ class QuestMenu_Scene
     @show_details = !@show_details
     if @show_details
       draw_quest_list
-      pbShowQuestDetails(@selected_index + @scroll_offset)
+      pbShowQuestDetails(@selected_index)
     else
       @sprites["questlist"].bitmap.clear
       @sprites["detailtext"].bitmap.clear
@@ -411,14 +428,18 @@ class QuestMenu_Scene
         else
           hide_details
           @showing_complete_list = true  # Indicamos que estamos mostrando la lista completa
+          @selected_index = 0
+          @scroll_offset = 0
           complete_quest_list  # Mostrar la lista completa de misiones
-          pbShowQuestDetails(@selected_index + @scroll_offset)
+          pbShowQuestDetails(@selected_index)
         end
       elsif Input.trigger?(Input::LEFT)
         hide_details
         @showing_complete_list = false  # Indicamos que estamos mostrando la lista normal
+        @selected_index = 0
+        @scroll_offset = 0
         draw_quest_list  # Mostrar la lista normal de misiones
-        pbShowQuestDetails(@selected_index + @scroll_offset)
+        pbShowQuestDetails(@selected_index)
       elsif Input.trigger?(Input::UP)  # Mover hacia arriba en la lista
         if @showing_complete_list
           if @selected_index > 0
@@ -427,7 +448,7 @@ class QuestMenu_Scene
             @scroll_offset -= 1
           end
           complete_quest_list
-          pbShowQuestDetails(@selected_index + @scroll_offset)
+          pbShowQuestDetails(@selected_index)
         else
           if @selected_index > 0
             @selected_index -= 1
@@ -435,7 +456,7 @@ class QuestMenu_Scene
             @scroll_offset -= 1
           end
           draw_quest_list
-          pbShowQuestDetails(@selected_index + @scroll_offset)
+          pbShowQuestDetails(@selected_index)
         end
       elsif Input.trigger?(Input::DOWN)  # Mover hacia abajo en la lista
         if @showing_complete_list
@@ -445,7 +466,7 @@ class QuestMenu_Scene
             @scroll_offset += 1
           end
           complete_quest_list
-          pbShowQuestDetails(@selected_index + @scroll_offset)
+          pbShowQuestDetails(@selected_index)
         else
           if @selected_index < @max_visible_items - 1 && @selected_index < @quest_names.length - 1
             @selected_index += 1
@@ -453,7 +474,7 @@ class QuestMenu_Scene
             @scroll_offset += 1
           end
           draw_quest_list
-          pbShowQuestDetails(@selected_index + @scroll_offset)
+          pbShowQuestDetails(@selected_index)
         end
       end
     end
