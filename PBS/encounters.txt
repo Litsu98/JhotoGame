@@ -337,7 +337,7 @@ Water,2
 OldRod
     100,PALPITOAD,20,23
 #-------------------------------
-[056] # Cueva union
+[198] # Cueva union
 Cave,5
     10,MAKUHITA,16,19
     10,NACLI,16,19
@@ -351,7 +351,7 @@ Water,2
 OldRod
     100,BARBOACH,15,16
 #-------------------------------
-[057] # Cueva union 2
+[199] # Cueva union 2
 Cave,5
     10,MAKUHITA,16,19
     10,NACLI,16,19
@@ -365,7 +365,7 @@ Water,2
 OldRod
     100,MAGIKARP,15,16
 #-------------------------------
-[058] # Cueva union 3
+[56] # Cueva union 3
 Cave,5
     10,MAKUHITA,16,19
     10,NACLI,16,19

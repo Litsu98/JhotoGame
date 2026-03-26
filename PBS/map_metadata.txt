@@ -261,6 +261,7 @@ BattleBack = Field
 #-------------------------------
 [046]   # entrada pozo
 Name = entrada pozo
+ShowArea = true
 Bicycle = true
 MapPosition = 0,15,18
 #-------------------------------
@@ -315,23 +316,25 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,23,8
 #-------------------------------
-[056]   # Cueva union
+[056]   # Cueva union 3
 Name = Cueva union
 ShowArea = true
 Bicycle = true
 MapPosition = 0,17,16
 BattleBack = cave2
 #-------------------------------
-[057]   # Cueva union 2
+[057]   # Raid 7
 Name = Cueva union 2
 Bicycle = true
 MapPosition = 0,17,16
 BattleBack = cave2
 #-------------------------------
-[058]   # Cueva union 3
+[058]   # Pozo Slowpoke
 Name = Cueva union 3
+ShowArea = true
 Bicycle = true
 MapPosition = 0,17,16
+BattleBack = cave2
 #-------------------------------
 [059]   # Ruina alfa Principal
 Name = Ruina alfa Principal
@@ -580,7 +583,7 @@ Name = Raid
 MapPosition = 0,21,9
 BattleBack = forest
 #-------------------------------
-[113]   # Raid 7
+[113]
 Name = Raid
 MapPosition = 0,17,16
 BattleBack = forest
@@ -599,12 +602,12 @@ BattleBack = interior
 Name = CASA1
 MapPosition = 0,9,6
 #-------------------------------
-[117]   # Paso a Ruinas Alfa
+[117]
 Name = Paso a Ruinas Alfa
 ShowArea = true
 MapPosition = 0,16,13
 #-------------------------------
-[118]   # Paso a Ruinas Alfa 2
+[118]
 Name = Paso a Ruinas Alfa
 MapPosition = 0,16,13
 #-------------------------------
