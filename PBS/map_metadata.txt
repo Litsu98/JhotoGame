@@ -286,11 +286,13 @@ BattleBack = cave2
 Name = Centro Poke
 MapPosition = 0,15,18
 #-------------------------------
-[051]
-Name = Ruinas Alfa
+[051]   # Cueva oscura
+Name = Cueva Oscura
+ShowArea = true
 Bicycle = true
 MapPosition = 0,15,18
-BattleBack = Templo
+DarkMap = true
+BattleBack = cave2
 #-------------------------------
 [052]   # Gym Volador
 Name = Gym Volador
@@ -580,7 +582,7 @@ Name = Raid
 MapPosition = 0,17,10
 BattleBack = forest
 #-------------------------------
-[112]   # Raid 3
+[112]
 Name = Raid
 MapPosition = 0,21,9
 BattleBack = forest
@@ -735,19 +737,20 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
-[160]
+[160]   # Cueva oscura
 Name = Ruta Helada
 ShowArea = true
-BattleBack = cave_ice
+DarkMap = true
+BattleBack = cave2
 #-------------------------------
 [161]   # Gimnasio Pokémon Caoba
 Name = Gimnasio Pokémon
 BattleBack = Yasmina
 #-------------------------------
-[162]
+[162]   # Raid 3
 Name = Ruta Helada 2
 ShowArea = true
-BattleBack = cave_ice
+BattleBack = cave2
 #-------------------------------
 [163]   # Guardia Rocket
 Name = Guardia Rocket
@@ -757,6 +760,9 @@ BattleBack = interior
 [169]   # Gimnasio Endrino
 Name = Gimnasio Pokémon
 BattleBack = interior
+#-------------------------------
+[176]   # Raid 4
+BattleBack = cave2
 #-------------------------------
 [179]   # Guarida Rocket Tojo
 Name = Guarida Rocket Tojo

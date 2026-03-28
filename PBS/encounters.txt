@@ -336,7 +336,7 @@ Water,2
 OldRod
     100,FEEBAS,20,23
 #-------------------------------
-[054] # Cueva oscura 1
+[051] # Cueva oscura 1
 Cave,5
     10,ARON,9,10
     10,DWEBBLE,9,10

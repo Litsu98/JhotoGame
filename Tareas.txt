@@ -11,7 +11,7 @@ Tareas Pendientes:
     - Mejorar rutas añadir más exploración a posterior.
     - Rework Rutas Archipielgago Naranja (No estan tan mal)
     - 
-    - Rework Cueva Oscura
+    - 
     - Rework Gimnasios 2, 8
     - Templos Mazmorra Para cada Tramo (Recompensa: Esencia del Tiempo: Revive un Pokémon)
 
