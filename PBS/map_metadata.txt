@@ -275,7 +275,7 @@ Name = Ruinas Alfa
 MapPosition = 0,16,11
 BattleBack = Templo
 #-------------------------------
-[049]   # Pozo Slowpoke
+[049]   # Raid 19
 Name = Ruinas Alfa
 ShowArea = true
 Bicycle = true
@@ -286,7 +286,7 @@ BattleBack = cave2
 Name = Centro Poke
 MapPosition = 0,15,18
 #-------------------------------
-[051]   # Pozo Slowpoke 1
+[051]
 Name = Ruinas Alfa
 Bicycle = true
 MapPosition = 0,15,18
@@ -349,10 +349,12 @@ BattleBack = templo
 Name = Instituto Arqueologico
 MapPosition = 0,16,11
 #-------------------------------
-[062]   # Pozo Slowpoke 2
-Name = Pozo Slowpoke 2
+[062]   # Ruta Healda
+Name = Ruta Helada
+ShowArea = true
 Bicycle = true
 MapPosition = 0,15,18
+BattleBack = cave_ice
 #-------------------------------
 [063]   # Gym Bicho
 Name = Gym Bicho
@@ -583,12 +585,12 @@ Name = Raid
 MapPosition = 0,21,9
 BattleBack = forest
 #-------------------------------
-[113]
+[113]   # Pozo Slowpoke 1
 Name = Raid
 MapPosition = 0,17,16
 BattleBack = forest
 #-------------------------------
-[114]   # Raid 8
+[114]   # Ruta Healda
 Name = Raid
 MapPosition = 0,15,18
 BattleBack = forest
@@ -602,12 +604,12 @@ BattleBack = interior
 Name = CASA1
 MapPosition = 0,9,6
 #-------------------------------
-[117]
+[117]   # Pozo Slowpoke 2
 Name = Paso a Ruinas Alfa
 ShowArea = true
 MapPosition = 0,16,13
 #-------------------------------
-[118]
+[118]   # Raid 8
 Name = Paso a Ruinas Alfa
 MapPosition = 0,16,13
 #-------------------------------
@@ -733,7 +735,7 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
-[160]   # Ruta Helada
+[160]
 Name = Ruta Helada
 ShowArea = true
 BattleBack = cave_ice
@@ -742,7 +744,7 @@ BattleBack = cave_ice
 Name = Gimnasio Pokémon
 BattleBack = Yasmina
 #-------------------------------
-[162]   # Ruta Helada 2
+[162]
 Name = Ruta Helada 2
 ShowArea = true
 BattleBack = cave_ice

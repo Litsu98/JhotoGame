@@ -8,12 +8,14 @@ module ChallengeModes
   # Groups of Map IDs that should be considered as one map in the case
   # where one large map is split up into multiple small maps
   SPLIT_MAPS_FOR_ENCOUNTERS = [
-    [64,65],
+    [64,65,66],
     [45,60],
     [49,51,62],
     [198,56,199],
+    [58,113,117]
     [39,77],
-    [153,152,154,156]
+    [153,152,154,156],
+    [62,114]
   ]
 
 

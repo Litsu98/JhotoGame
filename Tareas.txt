@@ -7,11 +7,10 @@ Tareas Pendientes:
     - Revisión dialogos de NPC
 
 2- Revisión de Mapeado:
-    - Pozo Slowpoke
+    -
     - Mejorar rutas añadir más exploración a posterior.
-    - Rework de Pueblo Caoba
-    - Rework Rutas Archipielgago Naranja
-    - Rework Ruta Helada
+    - Rework Rutas Archipielgago Naranja (No estan tan mal)
+    - 
     - Rework Cueva Oscura
     - Rework Gimnasios 2, 8
     - Templos Mazmorra Para cada Tramo (Recompensa: Esencia del Tiempo: Revive un Pokémon)

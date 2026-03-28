@@ -287,7 +287,7 @@ Water,2
 OldRod
     100,DRATINI,11,13
 #-------------------------------
-[049] # Pozo Slowpoke
+[058] # Pozo Slowpoke
 Cave,21
     10,BALTOY,20,23
     10,DIGLETT,20,23
@@ -304,7 +304,23 @@ OldRod
     50,SLOWPOKE,20,23
     50,SLOWPOKE_1,20,23
 #-------------------------------
-[051] # Pozo Slowpoke 1
+[113] # Pozo Slowpoke 1
+Cave,21
+    10,BALTOY,20,23
+    10,DIGLETT,20,23
+    10,DIGLETT_1,20,23
+    10,GEODUDE,20,23
+    10,GEODUDE_1,20,23
+    10,PSYDUCK,20,23
+    10,SLOWPOKE,20,23
+    10,SLOWPOKE_1,20,23
+Water,2
+    50,SLOWPOKE,42,45
+    50,SLOWPOKE_1,20,23
+OldRod
+    100,FEEBAS,20,23
+#-------------------------------
+[117] # Pozo Slowpoke 2
 Cave,21
     10,BALTOY,20,23
     10,DIGLETT,20,23
