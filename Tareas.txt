@@ -12,7 +12,7 @@ Tareas Pendientes:
     - Rework Rutas Archipielgago Naranja (No estan tan mal)
     - 
     - 
-    - Rework Gimnasios 2, 8
+    - Rework Gimnasio 8
     - Templos Mazmorra Para cada Tramo (Recompensa: Esencia del Tiempo: Revive un Pokémon)
 
 3- Team Rocket (más lore)

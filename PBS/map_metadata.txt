@@ -358,7 +358,7 @@ Bicycle = true
 MapPosition = 0,15,18
 BattleBack = cave_ice
 #-------------------------------
-[063]   # Gym Bicho
+[063]
 Name = Gym Bicho
 MapPosition = 0,15,18
 BattleBack = Anton
@@ -582,7 +582,7 @@ Name = Raid
 MapPosition = 0,17,10
 BattleBack = forest
 #-------------------------------
-[112]
+[112]   # Templo 1
 Name = Raid
 MapPosition = 0,21,9
 BattleBack = forest
@@ -762,6 +762,7 @@ Name = Gimnasio Pokémon
 BattleBack = interior
 #-------------------------------
 [176]   # Raid 4
+Name = Raid 4
 BattleBack = cave2
 #-------------------------------
 [179]   # Guarida Rocket Tojo
@@ -797,3 +798,10 @@ Name = Monte Plateado Exterior
 Outdoor = true
 ShowArea = true
 BattleBack = field
+#-------------------------------
+[200]   # Gym Bicho
+Name = Gym Bicho
+BattleBack = Anton
+#-------------------------------
+[204]   # Gym Bicho
+BattleBack = Anton
