@@ -2880,3 +2880,11 @@ BaseStats = 120,120,140,110,130,154
 BaseExp = 315
 Abilities = BERSERK_MODE
 HiddenAbilities = BERSERK_MODE
+#-------------------------------
+[TREVENANT,1]
+FormName = Anomalía
+BaseStats = 105,120,86,56,65,92
+TutorMoves = SHADOWCLAW,WOODHAMMER,ROCKSLIDE,POWERUPPUNCH
+BaseExp = 315
+Abilities = ECOTEMPORAL
+HiddenAbilities = ECOTEMPORAL

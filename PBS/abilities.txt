@@ -1254,4 +1254,8 @@ Description = Cuando Terapagos adopta la Forma Astral, anula todos los efectos d
 #-------------------------------
 [BERSERK_MODE]
 Name = Modo Berserker
-Description = Cuando la salud del Pokémon baja a la mitad, aumenta su ataque y defensa en 1.5x.
+Description = Cuando la salud del Pokémon baja a la mitad, aumenta su ataque especial y defensa en 1.5x.
+#-------------------------------
+[ECOTEMPORAL]
+Name = Eco Temporal
+Description = El flujo temporal corrige cualquier anomalía en su cuerpo, recuperando PS y curando problemas de estado al final de cada turno.

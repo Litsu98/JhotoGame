@@ -799,9 +799,13 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
+[197]   # Templo 3
+BattleBack = interior
+#-------------------------------
 [200]   # Gym Bicho
 Name = Gym Bicho
 BattleBack = Anton
 #-------------------------------
 [204]   # Gym Bicho
+Name = Gym Bicho
 BattleBack = Anton

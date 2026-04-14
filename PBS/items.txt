@@ -6934,3 +6934,12 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = Tiquet para viajar en Ferry hasta ciudad Orquídea.
+#-------------------------------
+[ENGRANAJEDELTIEMPO]
+Name = Engranaje del tiempo
+NamePlural = Engranajes del tiempo
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Un misterioso engranaje antiguo ligado al tiempo.
