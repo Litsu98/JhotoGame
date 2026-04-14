@@ -6943,3 +6943,12 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = Un misterioso engranaje antiguo ligado al tiempo.
+#-------------------------------
+[ESSENCEOFTIME]
+Name = Esencia del Tiempo
+NamePlural = Esencias del Tiempo
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = PsnCure
+Description = Un fragmento de energía temporal capaz de revertir el destino de un Pokémon caído.

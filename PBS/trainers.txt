@@ -1824,3 +1824,38 @@ Pokemon = CLODSIRE,75
 Pokemon = WEEZING,75
 Pokemon = SCIZOR,75
 #-------------------------------
+[fantasma1,???]
+LoseText = ???
+Pokemon = CLODSIRE,100
+Pokemon = WEEZING,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100
+#-------------------------------
+[fantasma2,???]
+LoseText = ???
+Pokemon = CLODSIRE,100
+Pokemon = WEEZING,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100
+#-------------------------------
+[fantasma3,???]
+LoseText = ???
+Pokemon = CLODSIRE,100
+Pokemon = WEEZING,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100
+#-------------------------------
+[fantasma4,???]
+LoseText = ???
+Pokemon = CLODSIRE,100
+Pokemon = WEEZING,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100
+Pokemon = SCIZOR,100

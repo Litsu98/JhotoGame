@@ -30,3 +30,4 @@ Tareas Pendientes:
     - Dialogos nombres sin color en negrita
     - Dialogo Señor, entrega de mapa.
     - Añadir Sonido de Puertas
+    - Quitar menu nuzlocke / modo random

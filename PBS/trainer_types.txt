@@ -436,3 +436,35 @@ IntroBGM = Chico.ogg
 VictoryBGM = TrainerVictory.ogg
 BattleBGM = VS-Giovanni.ogg
 #-------------------------------
+[fantasma1]
+Name = Anomalía
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[fantasma2]
+Name = Anomalía
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[fantasma3]
+Name = Anomalía
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------
+[fantasma4]
+Name = Anomalía
+Gender = Male
+BaseMoney = 60
+IntroBGM = Chico.ogg
+VictoryBGM = TrainerVictory.ogg
+BattleBGM = TeainerBattleOst.ogg
+#-------------------------------

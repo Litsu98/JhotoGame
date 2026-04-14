@@ -645,3 +645,42 @@ Water,2
     50,TYNAMO,46,48
 OldRod
     100,SKRELP,46,48
+#-------------------------------
+[112] # Templo Frondoso
+Land,21
+    10,SNEASLER,55,57
+    10,VOLTORB_1,55,57
+    10,SLIGGOO_1,55,57
+    10,BRAVIARY_1,55,57
+    10,LILLIGANT_1,55,57
+    10,RAICHU_1,55,57
+    10,KOFFING,55,57
+    10,WEEZING_1,55,57
+    10,BELDUM,55,57
+    10,FOONGUS,55,57
+#-------------------------------
+[166] # Templo Frondoso
+Land,21
+    10,SNEASLER,55,57
+    10,VOLTORB_1,55,57
+    10,SLIGGOO_1,55,57
+    10,BRAVIARY_1,55,57
+    10,LILLIGANT_1,55,57
+    10,RAICHU_1,55,57
+    10,KOFFING,55,57
+    10,WEEZING_1,55,57
+    10,BELDUM,55,57
+    10,FOONGUS,55,57
+#-------------------------------
+[197] # Templo Frondoso
+Land,21
+    10,SNEASLER,55,57
+    10,VOLTORB_1,55,57
+    10,SLIGGOO_1,55,57
+    10,BRAVIARY_1,55,57
+    10,LILLIGANT_1,55,57
+    10,RAICHU_1,55,57
+    10,KOFFING,55,57
+    10,WEEZING_1,55,57
+    10,BELDUM,55,57
+    10,FOONGUS,55,57
