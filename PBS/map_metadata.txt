@@ -582,10 +582,11 @@ Name = Raid
 MapPosition = 0,17,10
 BattleBack = forest
 #-------------------------------
-[112]   # Templo 1
-Name = Raid
+[112]   # Templo Frondoso
+Name = Templo Frondoso
+ShowArea = true
 MapPosition = 0,21,9
-BattleBack = forest
+BattleBack = interior
 #-------------------------------
 [113]   # Pozo Slowpoke 1
 Name = Raid
@@ -757,6 +758,9 @@ Name = Guardia Rocket
 ShowArea = true
 BattleBack = interior
 #-------------------------------
+[166]   # Templo Frondoso
+BattleBack = interior
+#-------------------------------
 [169]   # Gimnasio Endrino
 Name = Gimnasio Pokémon
 BattleBack = interior
@@ -799,7 +803,8 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
-[197]   # Templo 3
+[197]   # Templo Frondoso
+Name = Templo Frondoso
 BattleBack = interior
 #-------------------------------
 [200]   # Gym Bicho
