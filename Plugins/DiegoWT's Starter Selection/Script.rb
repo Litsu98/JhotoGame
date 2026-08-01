@@ -650,7 +650,7 @@ class DiegoWTsStarterSelection
       $game_variables[7] = @select if $game_variables[7] == 0
       @endscene = 1
       pbCloseScene
-      pbAddPokemon(@data["pkmn_#{@select}"], StarterSelSettings::STARTERL)
+      pbAddPokemonRandom(@data["pkmn_#{@select}"], StarterSelSettings::STARTERL)
       registrar_pokemon($player.id, @data["pkmn_#{@select}"].name, pbGetMapNameFromId($game_map.map_id), @data["pkmn_#{@select}"].personalID)
 
     else

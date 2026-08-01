@@ -2,32 +2,43 @@ Tareas Pendientes:
 
 
 1- Adición de Personajes:
-    - Acromo introducción templos Antiguos relacionados con célevi (Uvicación: Encinar)
-    - Añadir Cientifico Rocket (Trama de Pokémon oscuros)
+    - 
+    - Mas trama de team rocket mas lore modificar dialogos
     - Revisión dialogos de NPC
 
 2- Revisión de Mapeado:
+    - Mejorar primera guarida rocket (Buscar una llave para seguir avanzando)
+    - Mejorar interior torre campana poner mas niveles y entrenadores rocket
     -
     - Mejorar rutas añadir más exploración a posterior.
     - Rework Rutas Archipielgago Naranja (No estan tan mal)
     - 
     - 
     - Rework Gimnasio 8
-    - Templos Mazmorra Para cada Tramo (Recompensa: Esencia del Tiempo: Revive un Pokémon)
-
-3- Team Rocket (más lore)
-    - Añadir Trama de Pokémon Oscuros (Sentar bases de Pokémon Oscuros comaprados con megaevolución)
-
+    - Templos Mazmorra Para cada Tramo (Recompensa: Esencia del Tiempo: Revive un Pokémon)  templo 1 terminado, faltan 2 y templo final
 
 4- Terminar Juego:
     - Terminar Monte Plateado
     - Terminar Liga Pokémon (Alto mando)
     - Post Game mazmorra Hardcore (Final Volus)
+    - Post Game entramado de Ho-oh atlas como villano final. (Isla Ombligo) (Aun tengo que pensarlo para que no sea repetitivo, no será muy largo)
 
 
 Tareas Pendientes:
-    - Arreglar descripción de habilidad (sale descentrada)
+    - Marcos dialogos mejorarlos y fixearlos
+    - Misiones secundarias unas 3 por ciudad conseguir caramelos raros.
+    - 
     - Dialogos nombres sin color en negrita
     - Dialogo Señor, entrega de mapa.
     - Añadir Sonido de Puertas
     - Quitar menu nuzlocke / modo random
+    - Revision de objetos por rutas
+    - Randomicación progresiva de los Pokémon salvajes entrenadores.
+    - Randomicazion de mts unica apra cada jugador
+    - Implementar todas las megaevoluciones nuevas de ZA ademas de sus habilidades.
+
+Tareas Finales:
+    -Página web entrenadores para ver todo lo de cada jugador.
+    -Implementación de subida de informacion a tempo real de cada jugador a la base de datos.
+    -Testeo del juego
+    -Quitar camara rapida

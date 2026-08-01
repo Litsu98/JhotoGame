@@ -39,3 +39,9 @@ Nombre de la Misión: Ruinas Alfa
 Descripcion de la Misión: Investiga las Ruinas Alfa. Debes descubrir todos sus secretos y resolver los puzzles antiguos.
 Entrega de la misión: Ruinas Alfa
 Recompensa: OLDAMBER, EXPCANDYXL 
+
+[8]
+Nombre de la Misión: ¡Vuelve aquí!
+Descripcion de la Misión: Un niño de Pueblo Azalea ha perdido a su travieso Aipom en el Bosque Encinar. Parece que no quiere volver y se esconde constantemente. Encuéntralo y acorrálalo para devolverlo a su dueño.
+Entrega de la misión: Pueblo Azalea
+Recompensa: RARECANDY

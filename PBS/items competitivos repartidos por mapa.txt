@@ -1,6 +1,13 @@
-Templo Frondoso[
+Pueblo Azalea[
+Carbon
+]
 
+Templo Frondoso[
 Seguro devilidad
 Chaleco Asalto
+]
 
+
+ruta 34[
+Bloque de turba
 ]

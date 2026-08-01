@@ -701,6 +701,9 @@ Name = Raid 24
 Name = Gym
 BattleBack = anibal
 #-------------------------------
+[141]   # Centro Poke Cerezo
+Name = Centro Pokémon
+#-------------------------------
 [151]   # GYM olivo
 Name = GYM
 BattleBack = Yasmina
@@ -759,6 +762,7 @@ ShowArea = true
 BattleBack = interior
 #-------------------------------
 [166]   # Templo Frondoso
+Name = Templo Frondoso
 BattleBack = interior
 #-------------------------------
 [169]   # Gimnasio Endrino
