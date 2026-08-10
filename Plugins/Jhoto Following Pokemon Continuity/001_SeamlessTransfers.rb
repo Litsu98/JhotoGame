@@ -24,3 +24,16 @@ EventHandlers.add(:on_enter_map, :erase_following_pkmn, proc { |old_map_id|
     map.events[event.event_id]&.erase if event.original_map_id == event.current_map_id
   end
 })
+
+# Essentials reveals followers as soon as the player starts moving after a
+# transfer. A forced move route (for example, walking out of a Pokemon Center)
+# must not count as the player's first step.
+class FollowerData
+  alias __jhoto_continuity__invisible_after_transfer= invisible_after_transfer= unless method_defined?(:__jhoto_continuity__invisible_after_transfer=)
+
+  def invisible_after_transfer=(value)
+    forced_player_movement = $game_player && $game_player.move_route_forcing
+    return true if @invisible_after_transfer && value == false && forced_player_movement
+    return send(:__jhoto_continuity__invisible_after_transfer=, value)
+  end
+end
