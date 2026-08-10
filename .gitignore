@@ -1,0 +1,20 @@
+# Archivos locales de trabajo de Codex
+/Codex/Backups/
+/Codex/Builds/
+/Codex/Dependencias/
+/Codex/Herramientas/
+/Codex/Registros/
+
+# Copias temporales de datos de RPG Maker XP
+/Data/.codex_*
+/Data/*.codex_*
+/Data/*.before_*
+/_codex_map*_head/
+/Map*_oldfinal_inspect.rxdata
+
+# Copias temporales de recursos gráficos
+/Graphics/**/*.before_*
+
+# Archivos del sistema
+Thumbs.db
+Desktop.ini
